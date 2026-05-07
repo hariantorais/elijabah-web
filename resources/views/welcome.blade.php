@@ -85,6 +85,7 @@
                     <a href="#layanan" class="hover:text-brand-600 transition">Layanan</a>
                     <a href="#template" class="hover:text-brand-600 transition">Template</a>
                     <a href="#harga" class="hover:text-brand-600 transition">Harga</a>
+                    <a href="#pemesanan" class="hover:text-brand-600 transition">Cara Pesan</a>
                     <a href="#faq" class="hover:text-brand-600 transition">FAQ</a>
                 </div>
 
@@ -117,6 +118,8 @@
                     class="block font-bold text-slate-700 text-lg hover:text-brand-600">Template</a>
                 <a href="#harga" @click="mobileMenu = false"
                     class="block font-bold text-slate-700 text-lg hover:text-brand-600">Harga</a>
+                <a href="#pemesanan" @click="mobileMenu = false"
+                    class="block font-bold text-slate-700 text-lg hover:text-brand-600">Cara Pesan</a>
                 <a href="#faq" @click="mobileMenu = false"
                     class="block font-bold text-slate-700 text-lg hover:text-brand-600">FAQ</a>
                 <a href="https://wa.me/{{ settings('contact_phone') }}"
@@ -638,7 +641,7 @@
         </div>
     </section>
 
-    <section class="py-24 bg-slate-50 relative overflow-hidden">
+    <section id="pemesanan" class="py-24 bg-slate-50 relative overflow-hidden">
         <!-- Dekorasi Background -->
         <div
             class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:20px_20px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]">
