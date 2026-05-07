@@ -7,7 +7,8 @@
     <title>Jasa Pembuatan Website - Tech Startup Theme</title>
 
     <!-- Tailwind CSS & Alpine JS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     <!-- Font: Plus Jakarta Sans -->
@@ -15,36 +16,9 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            50: '#f0f9ff',
-                            100: '#e0f2fe',
-                            400: '#38bdf8', // Light Blue
-                            500: '#0ea5e9', // Sky Blue
-                            600: '#0284c7', // Ocean Blue
-                            800: '#075985',
-                            900: '#0c4a6e',
-                        },
-                        cyan: {
-                            400: '#22d3ee',
-                            500: '#06b6d4',
-                        }
-                    },
-                    fontFamily: {
-                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-                    },
-                    backgroundImage: {
-                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-                        'tech-gradient': 'linear-gradient(to right, #0284c7, #06b6d4)',
-                    }
-                }
-            }
-        }
-    </script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+
 
     <style>
         body {
@@ -96,20 +70,22 @@
             <div class="flex justify-between items-center">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center gap-2">
-                    <div
-                        class="w-10 h-10 rounded-xl bg-tech-gradient text-white flex items-center justify-center text-xl shadow-lg shadow-brand-500/30">
-                        <i class="fa-solid fa-code"></i>
+                    <div class="w-10 h-10 rounded-xl  flex items-center justify-center ">
+                        <!-- Mengganti ikon <i> dengan <img> -->
+                        <img src="{{ asset('favicon.ico') }}" alt="Logo" class="object-contain">
                     </div>
-                    <span class="text-2xl font-extrabold text-slate-900 tracking-tight">Web<span
-                            class="text-transparent bg-clip-text bg-tech-gradient">Elijabah.</span></span>
+                    <span class="text-2xl font-extrabold text-slate-900 tracking-tight">
+                        Web<span class="text-transparent bg-clip-text bg-tech-gradient">Elijabah.</span>
+                    </span>
                 </div>
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8 items-center font-semibold text-slate-600 text-sm">
                     <a href="#hero" class="hover:text-brand-600 transition">Beranda</a>
                     <a href="#layanan" class="hover:text-brand-600 transition">Layanan</a>
-                    <a href="#portfolio" class="hover:text-brand-600 transition">Portofolio</a>
+                    <a href="#template" class="hover:text-brand-600 transition">Template</a>
                     <a href="#harga" class="hover:text-brand-600 transition">Harga</a>
+                    <a href="#faq" class="hover:text-brand-600 transition">FAQ</a>
                 </div>
 
                 <!-- Desktop CTA -->
@@ -188,20 +164,46 @@
                     </div>
 
                     <!-- Tech Stack Icons -->
-                    <div
-                        class="mt-10 pt-8 border-t border-slate-200 flex flex-wrap justify-center lg:justify-start items-center gap-6 text-slate-400 text-2xl">
+                    <div class="mt-10 pt-8 border-t border-slate-200">
+                        <!-- Judul dibuat terpisah dari container icon agar tidak merusak spacing -->
                         <p
-                            class="text-xs font-bold uppercase tracking-widest text-slate-500 w-full text-center lg:text-left mb-2">
-                            Dibangun dengan teknologi modern:</p>
-                        <i class="fa-brands fa-laravel hover:text-red-500 transition cursor-pointer"
-                            title="Laravel"></i>
-                        <i class="fa-brands fa-react hover:text-cyan-400 transition cursor-pointer"
-                            title="React JS"></i>
-                        <i class="fa-brands fa-vuejs hover:text-emerald-500 transition cursor-pointer"
-                            title="Vue JS"></i>
+                            class="text-[10px] font-extrabold uppercase tracking-[0.2em] text-slate-500 text-center lg:text-left mb-6">
+                            Dibangun dengan teknologi modern
+                        </p>
 
-                        <i class="fa-brands fa-figma hover:text-purple-500 transition cursor-pointer"
-                            title="Figma"></i>
+                        <!-- Container Ikon -->
+                        <div
+                            class="flex flex-wrap justify-center lg:justify-start items-center gap-x-8 gap-y-6 text-slate-400 text-3xl">
+
+
+                            <!-- React JS -->
+                            <i class="fa-brands fa-react hover:text-[#61DAFB] transition-all duration-300 cursor-pointer"
+                                title="React JS"></i>
+
+                            <!-- Node.js -->
+                            <i class="fa-brands fa-node-js hover:text-[#339933] transition-all duration-300 cursor-pointer"
+                                title="Node.js"></i>
+
+                            <!-- Express -->
+                            <i class="fa-solid fa-server hover:text-slate-600 transition-all duration-300 cursor-pointer"
+                                title="Express.js"></i>
+
+                            <!-- Laravel -->
+                            <i class="fa-brands fa-laravel hover:text-[#FF2D20] transition-all duration-300 cursor-pointer"
+                                title="Laravel"></i>
+
+                            <!-- MongoDB -->
+                            <i class="fa-solid fa-leaf hover:text-[#47A248] transition-all duration-300 cursor-pointer"
+                                title="MongoDB"></i>
+
+                            <!-- MySQL -->
+                            <i class="fa-solid fa-database hover:text-[#4479A1] transition-all duration-300 cursor-pointer"
+                                title="MySQL"></i>
+
+                            <!-- Figma -->
+                            <i class="fa-brands fa-figma hover:text-[#F24E1E] transition-all duration-300 cursor-pointer"
+                                title="Figma"></i>
+                        </div>
                     </div>
                 </div>
 
@@ -371,7 +373,7 @@
         $categories = collect($allTemplates)->pluck('category_label', 'category_slug')->unique();
     @endphp
 
-    <section id="template-library" x-data="{ activeFilter: 'umkm' }" class="py-24 bg-slate-50 border-t border-slate-100">
+    <section id="template" x-data="{ activeFilter: 'umkm' }" class="py-24 bg-slate-50 border-t border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <!-- Header: Disamakan dengan gaya Portfolio -->
@@ -409,7 +411,7 @@
 
                         <!-- Frame Gambar (Stretch & Hover Effect) -->
                         <div
-                            class="relative w-full h-50 rounded-[1.25rem] overflow-hidden bg-slate-200 border border-slate-100">
+                            class="relative w-full h-50 rounded-t-3xl overflow-hidden bg-slate-200 border border-slate-100">
                             <img src="{{ asset('images/templates/' . $item['route'] . '.png') }}"
                                 alt="{{ $item['name'] }}"
                                 class="w-full h-full object-cover object-top group-hover:scale-110 transition duration-1000 ease-in-out"
@@ -568,14 +570,15 @@
                     </ul>
 
                     <a href="https://wa.me/{{ settings('contact_phone') }}?text=Halo, saya mau pesan Paket Bisnis (3.5 Jt)"
-                        class="block w-full text-center bg-white text-brand-700 py-4 rounded-xl font-black hover:bg-slate-100 transition shadow-xl uppercase text-xs tracking-widest">Ambil
+                        target="_blank"
+                        class="block w-full text-center bg-white text-brand-700 py-4 rounded-xl font-black text-black hover:bg-slate-100 transition shadow-xl uppercase text-xs tracking-widest">Ambil
                         Promo Ini</a>
                 </div>
 
                 <!-- Paket 3: Toko Online (E-Commerce) -->
                 <div
                     class="bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 border border-slate-700 hover:border-slate-500 transition duration-300">
-                    <h3 class="text-xl font-bold text-slate-200 mb-2">Enterprise Cusom</h3>
+                    <h3 class="text-xl font-bold text-slate-200 mb-2">Enterprise Custom</h3>
                     <p class="text-slate-400 text-xs mb-6">Arsitektur sistem yang dibangun 100% mengikuti alur kerja
                         bisnis atau lembaga Anda.</p>
                     <div class="mb-8">
@@ -809,9 +812,9 @@
                 <!-- Brand -->
                 <div class="md:col-span-1">
                     <div class="flex items-center gap-2 mb-6">
-                        <div
-                            class="w-8 h-8 rounded-lg bg-tech-gradient text-white flex items-center justify-center text-sm">
-                            <i class="fa-solid fa-code"></i>
+                        <div class="w-8 h-8 rounded-xl  flex items-center justify-center ">
+                            <!-- Mengganti ikon <i> dengan <img> -->
+                            <img src="{{ asset('favicon.ico') }}" alt="Logo" class="object-contain">
                         </div>
                         <span class="text-xl font-extrabold text-slate-900 tracking-tight">Web<span
                                 class="text-brand-500">Elijabah.</span></span>
@@ -833,7 +836,7 @@
                     <ul class="space-y-3 text-sm font-medium text-slate-500">
                         <li><a href="#hero" class="hover:text-brand-500 transition">Beranda</a></li>
                         <li><a href="#layanan" class="hover:text-brand-500 transition">Jasa Website</a></li>
-                        <li><a href="#portfolio" class="hover:text-brand-500 transition">Hasil Kerja</a></li>
+                        <li><a href="#template" class="hover:text-brand-500 transition">Template</a></li>
                         <li><a href="#harga" class="hover:text-brand-500 transition">Daftar Harga</a></li>
                     </ul>
                 </div>
@@ -870,7 +873,7 @@
             <!-- Copyright -->
             <div
                 class="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-sm font-medium">
-                <p>&copy; 2026 {{ settings('app_name') }}. Hak Cipta Dilindungi.</p>
+                <p>&copy; 2026 Elijabah International Group. All Rights Reserved.</p>
             </div>
         </div>
     </footer>

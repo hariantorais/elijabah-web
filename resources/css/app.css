@@ -8,6 +8,27 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+
+    /* Font Family */
+        --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    
+        /* Warna Brand (Sky/Ocean Blue) */
+        --color-brand-50: #f0f9ff;
+        --color-brand-100: #e0f2fe;
+        --color-brand-400: #38bdf8;
+        --color-brand-500: #0ea5e9;
+        --color-brand-600: #0284c7;
+        --color-brand-800: #075985;
+        --color-brand-900: #0c4a6e;
+    
+        /* Warna Cyan */
+        --color-cyan-400: #22d3ee;
+        --color-cyan-500: #06b6d4;
+    
+        /* Background Gradient */
+        --background-image-tech-gradient: linear-gradient(to right, #0284c7, #06b6d4);
+        --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+
     --font-sans:
         'Instrument Sans', ui-sans-serif, system-ui, sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
