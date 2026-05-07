@@ -289,7 +289,7 @@
                         <i class="fa-solid fa-headset"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 mb-2">Support 6 Bulan</h3>
-                    <p class="text-slate-500 text-sm">Gratis perbaikan bug dan konsultasi teknis selama 30 hari setelah
+                    <p class="text-slate-500 text-sm">Gratis perbaikan bug dan konsultasi teknis selama 6 bulan setelah
                         web selesai.</p>
                 </div>
             </div>
