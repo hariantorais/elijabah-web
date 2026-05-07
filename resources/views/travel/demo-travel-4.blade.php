@@ -67,7 +67,7 @@
                     <a href="#galeri" class="hover:text-amber-600 transition">Galeri</a>
                     <a href="#testimoni" class="hover:text-amber-600 transition">Testimoni</a>
                     <a href="#blog" class="hover:text-amber-600 transition">Blog</a>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="bg-slate-900 text-white px-5 py-2.5 rounded-lg hover:bg-slate-800 transition shadow-md">Konsultasi
                         WA</a>
                 </div>
@@ -92,7 +92,7 @@
                 <a href="#testimoni" @click="mobileMenu = false" class="block font-medium text-slate-700">Testimoni</a>
                 <a href="#faq" @click="mobileMenu = false" class="block font-medium text-slate-700">FAQ</a>
                 <a href="#blog" @click="mobileMenu = false" class="block font-medium text-slate-700">Blog</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="block w-full text-center bg-slate-900 text-white py-3 rounded-lg font-bold">Chat via
                     WhatsApp</a>
             </div>
@@ -207,7 +207,8 @@
                 <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:bg-slate-700 transition">
                     <div
                         class="w-14 h-14 mx-auto bg-slate-900 text-amber-500 rounded-full flex items-center justify-center text-2xl mb-6 shadow-inner">
-                        <i class="fa-solid fa-plane-circle-check"></i></div>
+                        <i class="fa-solid fa-plane-circle-check"></i>
+                    </div>
                     <h3 class="text-xl font-bold text-white mb-3">Pasti Berangkat</h3>
                     <p class="text-sm text-slate-400">Sistem tiket terpadu. Tiket pesawat sudah di-*booking* jauh hari
                         sebelum pendaftaran dibuka.</p>
@@ -216,7 +217,8 @@
                 <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:bg-slate-700 transition">
                     <div
                         class="w-14 h-14 mx-auto bg-slate-900 text-amber-500 rounded-full flex items-center justify-center text-2xl mb-6 shadow-inner">
-                        <i class="fa-solid fa-hotel"></i></div>
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
                     <h3 class="text-xl font-bold text-white mb-3">Hotel Ring 1 & 2</h3>
                     <p class="text-sm text-slate-400">Jarak akomodasi sangat dekat dengan masjid, menghemat tenaga
                         fisik Anda untuk beribadah.</p>
@@ -225,7 +227,8 @@
                 <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:bg-slate-700 transition">
                     <div
                         class="w-14 h-14 mx-auto bg-slate-900 text-amber-500 rounded-full flex items-center justify-center text-2xl mb-6 shadow-inner">
-                        <i class="fa-solid fa-book-quran"></i></div>
+                        <i class="fa-solid fa-book-quran"></i>
+                    </div>
                     <h3 class="text-xl font-bold text-white mb-3">Bimbingan Sunnah</h3>
                     <p class="text-sm text-slate-400">Manasik eksklusif dengan kurikulum jelas, memastikan ibadah jauh
                         dari unsur bid'ah.</p>
@@ -234,7 +237,8 @@
                 <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:bg-slate-700 transition">
                     <div
                         class="w-14 h-14 mx-auto bg-slate-900 text-amber-500 rounded-full flex items-center justify-center text-2xl mb-6 shadow-inner">
-                        <i class="fa-solid fa-hand-holding-dollar"></i></div>
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
                     <h3 class="text-xl font-bold text-white mb-3">Harga Transparan</h3>
                     <p class="text-sm text-slate-400">Paket *All-in*. Tidak ada biaya siluman atau tambahan *hidden
                         cost* saat di Tanah Suci.</p>
@@ -276,7 +280,7 @@
                         <li class="flex items-start gap-3"><i class="fa-solid fa-check text-amber-500 mt-1"></i> City
                             Tour Makkah Madinah</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center w-full bg-white border border-slate-300 text-slate-900 py-3 rounded-lg font-bold hover:bg-slate-900 hover:text-white transition">Tanya
                         Paket Ini</a>
                 </div>
@@ -306,7 +310,7 @@
                         <li class="flex items-start gap-3"><i class="fa-solid fa-star text-amber-500 mt-1"></i> Wisata
                             Sejarah Istanbul & Bursa</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center w-full bg-amber-500 text-slate-900 py-3 rounded-lg font-bold hover:bg-amber-400 transition shadow-lg">Booking
                         Sekarang</a>
                 </div>
@@ -335,7 +339,7 @@
                         <li class="flex items-start gap-3"><i class="fa-solid fa-check text-amber-500 mt-1"></i> Tim
                             Medis Pribadi 24 Jam</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center w-full bg-white border border-slate-300 text-slate-900 py-3 rounded-lg font-bold hover:bg-slate-900 hover:text-white transition">Konsultasi
                         Haji</a>
                 </div>

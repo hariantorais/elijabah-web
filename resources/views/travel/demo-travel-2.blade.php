@@ -54,7 +54,7 @@
                     <a href="#galeri" class="hover:text-yellow-600 transition">Galeri</a>
                     <a href="#faq" class="hover:text-yellow-600 transition">FAQ</a>
                     <a href="#blog" class="hover:text-yellow-600 transition">Blog</a>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="bg-green-900 text-white px-6 py-2.5 rounded-full hover:bg-green-800 transition shadow-md">Hubungi
                         Kami</a>
                 </div>
@@ -81,7 +81,7 @@
                 <a href="#tim" @click="mobileMenu = false" class="block font-semibold text-gray-700">Pembimbing</a>
                 <a href="#faq" @click="mobileMenu = false" class="block font-semibold text-gray-700">FAQ</a>
                 <a href="#blog" @click="mobileMenu = false" class="block font-semibold text-gray-700">Blog</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="block w-full text-center bg-green-900 text-white py-3 rounded-xl font-semibold">Chat
                     WhatsApp</a>
             </div>
@@ -186,7 +186,7 @@
                         jemaah Indonesia. Dengan tim profesional dan berpengalaman, kenyamanan fisik serta kekhusyukan
                         batin Anda adalah prioritas utama kami.</p>
 
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="inline-block bg-gray-100 text-green-900 px-6 py-3 rounded-full font-bold hover:bg-green-100 transition">Mulai
                         Konsultasi</a>
                 </div>
@@ -207,7 +207,8 @@
                     class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:-translate-y-2 transition duration-300">
                     <div
                         class="w-14 h-14 bg-green-50 text-green-700 rounded-2xl flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-clipboard-check"></i></div>
+                        <i class="fa-solid fa-clipboard-check"></i>
+                    </div>
                     <h4 class="text-xl font-bold text-gray-900 mb-3">Izin Resmi Terdaftar</h4>
                     <p class="text-gray-600 text-sm leading-relaxed">Terdaftar di Kementerian Agama RI sebagai PPIU &
                         PIHK resmi. Menjamin legalitas keamanan dana dan dokumen Anda.</p>
@@ -216,7 +217,8 @@
                     class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:-translate-y-2 transition duration-300">
                     <div
                         class="w-14 h-14 bg-green-50 text-green-700 rounded-2xl flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-chalkboard-user"></i></div>
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
                     <h4 class="text-xl font-bold text-gray-900 mb-3">Bimbingan Sunnah</h4>
                     <p class="text-gray-600 text-sm leading-relaxed">Manasik dan pembekalan ibadah eksklusif
                         berdasarkan dalil yang sahih, memastikan ibadah sah tanpa bid'ah.</p>
@@ -225,7 +227,8 @@
                     class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:-translate-y-2 transition duration-300">
                     <div
                         class="w-14 h-14 bg-green-50 text-green-700 rounded-2xl flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-hotel"></i></div>
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
                     <h4 class="text-xl font-bold text-gray-900 mb-3">Hotel Ring 1 & Nyaman</h4>
                     <p class="text-gray-600 text-sm leading-relaxed">Akomodasi berstandar bintang 4 dan 5 di Makkah &
                         Madinah dengan jarak jalan kaki singkat menuju pelataran Masjid.</p>
@@ -266,7 +269,7 @@
                             <li class="flex items-start gap-3"><i class="fa-solid fa-check text-yellow-500 mt-1"></i>
                                 Perlengkapan Handling All-in</li>
                         </ul>
-                        <a href="https://wa.me/62812345678"
+                        <a href="#"
                             class="block w-full text-center bg-gray-100 text-gray-900 font-bold py-4 rounded-xl hover:bg-green-900 hover:text-white transition mt-auto">Detail
                             Paket</a>
                     </div>
@@ -298,7 +301,7 @@
                             <li class="flex items-start gap-3"><i class="fa-solid fa-star text-yellow-400 mt-1"></i>
                                 City Tour Istanbul & Bursa</li>
                         </ul>
-                        <a href="https://wa.me/62812345678"
+                        <a href="#"
                             class="block w-full text-center bg-yellow-500 text-green-950 font-bold py-4 rounded-xl hover:bg-yellow-400 transition shadow-lg mt-auto">Daftar
                             Sekarang</a>
                     </div>
@@ -324,7 +327,7 @@
                             <li class="flex items-start gap-3"><i class="fa-solid fa-check text-yellow-500 mt-1"></i>
                                 Bimbingan Syekh Intensif</li>
                         </ul>
-                        <a href="https://wa.me/62812345678"
+                        <a href="#"
                             class="block w-full text-center bg-gray-100 text-gray-900 font-bold py-4 rounded-xl hover:bg-green-900 hover:text-white transition mt-auto">Konsultasi
                             Haji</a>
                     </div>

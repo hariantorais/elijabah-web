@@ -99,7 +99,7 @@
 
                 <!-- Desktop CTA -->
                 <div class="hidden md:block">
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="bg-terracotta-600 text-white px-7 py-2.5 rounded-full font-bold hover:bg-terracotta-800 transition shadow-lg flex items-center gap-2 text-sm uppercase tracking-wider">
                         Pesan Sekarang
                     </a>
@@ -126,7 +126,7 @@
                 <a href="#tentang" @click="mobileMenu = false"
                     class="block font-bold text-espresso-900 uppercase tracking-widest text-sm hover:text-terracotta-600">Kisah
                     Kami</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="bg-terracotta-600 text-white py-3 rounded-full font-bold uppercase tracking-widest text-xs mt-4">WhatsApp
                     Admin</a>
             </div>
@@ -246,7 +246,7 @@
                         <p class="text-sm text-espresso-900/60 font-medium mb-6">Nasi basmati aromatik dengan potongan
                             kambing muda yang empuk dan sambal maraq.</p>
                         <p class="text-2xl font-bold text-terracotta-600 mb-6">Rp 75.000</p>
-                        <a href="https://wa.me/62812345678?text=Halo,%20saya%20mau%20pesan%20Nasi%20Mandhi"
+                        <a href="#"
                             class="block w-full border-2 border-terracotta-600 text-terracotta-600 py-3 rounded-xl font-bold hover:bg-terracotta-600 hover:text-white transition uppercase text-xs tracking-widest">
                             Pesan via WA
                         </a>
@@ -269,7 +269,7 @@
                         <p class="text-sm text-espresso-900/60 font-medium mb-6">Tortilla gandum dengan isian daging
                             sapi premium, sayuran segar, dan saus spesial racikan kami.</p>
                         <p class="text-2xl font-bold text-terracotta-600 mb-6">Rp 35.000</p>
-                        <a href="https://wa.me/62812345678?text=Halo,%20saya%20mau%20pesan%20Kebab%20Sultan"
+                        <a href="#"
                             class="block w-full bg-terracotta-600 text-white py-3 rounded-xl font-bold hover:bg-terracotta-800 transition shadow-lg uppercase text-xs tracking-widest">
                             Pesan via WA
                         </a>
@@ -289,7 +289,7 @@
                         <p class="text-sm text-espresso-900/60 font-medium mb-6">Puding roti khas Mesir dengan campuran
                             susu, kismis, kacang almond, dan taburan kayu manis.</p>
                         <p class="text-2xl font-bold text-terracotta-600 mb-6">Rp 25.000</p>
-                        <a href="https://wa.me/62812345678?text=Halo,%20saya%20mau%20pesan%20Umm%20Ali"
+                        <a href="#"
                             class="block w-full border-2 border-terracotta-600 text-terracotta-600 py-3 rounded-xl font-bold hover:bg-terracotta-600 hover:text-white transition uppercase text-xs tracking-widest">
                             Pesan via WA
                         </a>

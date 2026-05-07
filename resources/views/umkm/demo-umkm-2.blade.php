@@ -252,7 +252,7 @@
                         Arrivals</span>
                     <h2 class="text-4xl font-serif text-sand-900 font-bold">Koleksi Terkini</h2>
                 </div>
-                <a href="https://wa.me/c/62812345678" target="_blank"
+                <a href="#" target="_blank"
                     class="text-xs font-bold uppercase tracking-widest text-sand-500 hover:text-blush-600 transition link-underline pb-1">
                     Lihat Katalog Lengkap &rarr;
                 </a>

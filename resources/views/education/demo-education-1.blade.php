@@ -87,7 +87,7 @@
                 <a href="#kurikulum" class="hover:text-edu-600 transition">Kurikulum</a>
                 <a href="#fasilitas" class="hover:text-edu-600 transition">Fasilitas</a>
                 <a href="#pendaftaran" class="hover:text-edu-600 transition">Alur Daftar</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="bg-edu-600 text-white px-6 py-2.5 rounded-full hover:bg-edu-800 transition shadow-lg shadow-edu-600/20">PPDB
                     2026</a>
             </div>
@@ -101,8 +101,8 @@
             <a href="#profil" @click="mobileMenu = false" class="block font-bold">PROFIL LEMBAGA</a>
             <a href="#kurikulum" @click="mobileMenu = false" class="block font-bold">KURIKULUM</a>
             <a href="#pendaftaran" @click="mobileMenu = false" class="block font-bold">ALUR PENDAFTARAN</a>
-            <a href="https://wa.me/62812345678"
-                class="block w-full bg-edu-600 text-white py-3 text-center rounded-lg font-bold">HUBUNGI KAMI</a>
+            <a href="#" class="block w-full bg-edu-600 text-white py-3 text-center rounded-lg font-bold">HUBUNGI
+                KAMI</a>
         </div>
     </nav>
 

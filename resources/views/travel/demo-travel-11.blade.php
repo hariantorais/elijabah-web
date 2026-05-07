@@ -123,7 +123,7 @@
 
                 <!-- Desktop CTA -->
                 <div class="hidden lg:block">
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="px-6 py-2.5 border border-gold-500 text-gold-500 font-semibold text-xs uppercase tracking-widest hover:bg-gold-500 hover:text-midnight-950 transition duration-500 flex items-center gap-2">
                         Reservasi
                     </a>
@@ -152,7 +152,7 @@
                     class="text-slate-300 font-medium hover:text-gold-500 text-sm uppercase tracking-widest">Galeri</a>
                 <a href="#faq" @click="mobileMenu = false"
                     class="text-slate-300 font-medium hover:text-gold-500 text-sm uppercase tracking-widest">FAQ</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="bg-gold-500 text-midnight-950 py-3 font-bold text-sm uppercase tracking-widest mt-4">Hubungi
                     Kami</a>
             </div>
@@ -188,7 +188,7 @@
                     class="bg-gold-500 text-midnight-950 px-10 py-4 font-bold text-sm uppercase tracking-widest hover:bg-gold-400 transition duration-300 glow-gold">
                     Eksplorasi Paket
                 </a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="bg-transparent border border-gold-500/50 text-gold-500 px-10 py-4 font-bold text-sm uppercase tracking-widest hover:bg-gold-500/10 transition duration-300">
                     Konsultasi Pribadi
                 </a>
@@ -345,7 +345,7 @@
                         <li class="flex items-start gap-4"><i class="fa-solid fa-check text-gold-500 mt-1"></i>
                             Perlengkapan Lengkap</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center border border-slate-600 text-slate-300 py-4 text-xs font-bold uppercase tracking-widest hover:border-gold-500 hover:text-gold-500 transition duration-300">Pilih
                         Paket</a>
                 </div>
@@ -372,7 +372,7 @@
                         <li class="flex items-start gap-4"><i class="fa-solid fa-check text-gold-500 mt-1"></i> Kereta
                             Cepat Haramain</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center bg-gold-500 text-midnight-950 py-4 text-xs font-bold uppercase tracking-widest hover:bg-gold-400 transition duration-300 shadow-lg shadow-gold-500/20">Reservasi
                         VIP</a>
                 </div>
@@ -395,7 +395,7 @@
                         <li class="flex items-start gap-4"><i class="fa-solid fa-check text-gold-500 mt-1"></i> Tim
                             Medis Pribadi</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center border border-slate-600 text-slate-300 py-4 text-xs font-bold uppercase tracking-widest hover:border-gold-500 hover:text-gold-500 transition duration-300">Konsultasi
                         Haji</a>
                 </div>

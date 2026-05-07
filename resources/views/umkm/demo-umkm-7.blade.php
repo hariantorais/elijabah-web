@@ -114,7 +114,7 @@
 
                 <!-- Desktop CTA -->
                 <div class="hidden md:block">
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="bg-slate-900 text-white px-6 py-2.5 rounded-full font-bold hover:bg-brand-600 transition duration-300 shadow-lg flex items-center gap-2 text-sm">
                         Konsultasi Gratis <i class="fa-solid fa-arrow-right"></i>
                     </a>
@@ -141,7 +141,7 @@
                     class="block font-bold text-slate-700 text-lg hover:text-brand-600">Portofolio</a>
                 <a href="#harga" @click="mobileMenu = false"
                     class="block font-bold text-slate-700 text-lg hover:text-brand-600">Harga Paket</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="block w-full bg-tech-gradient text-white py-3 rounded-xl font-bold mt-4 shadow-md">
                     Hubungi Kami
                 </a>
@@ -434,7 +434,7 @@
             </div>
 
             <div class="text-center mt-12">
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="inline-flex items-center gap-2 text-slate-600 font-bold hover:text-brand-600 transition border-b-2 border-slate-300 hover:border-brand-600 pb-1">
                     Ingin desain seperti di atas? Hubungi kami.
                 </a>
@@ -478,7 +478,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-brand-400"></i>
                             Pengerjaan 3-5 Hari</li>
                     </ul>
-                    <a href="https://wa.me/62812345678?text=Halo,%20saya%20mau%20pesan%20Paket%20Landing%20Page"
+                    <a href="#"
                         class="block w-full text-center bg-slate-700 text-white py-3 rounded-xl font-bold hover:bg-slate-600 transition">Pilih
                         Paket</a>
                 </div>
@@ -507,7 +507,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-white"></i> Setup
                             SEO Basic</li>
                     </ul>
-                    <a href="https://wa.me/62812345678?text=Halo,%20saya%20mau%20pesan%20Paket%20Company%20Profile"
+                    <a href="#"
                         class="block w-full text-center bg-white text-brand-600 py-3 rounded-xl font-bold hover:bg-slate-50 transition shadow-lg">Pilih
                         Paket Pro</a>
                 </div>
@@ -531,7 +531,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-brand-400"></i> Fitur
                             Keranjang & Checkout</li>
                     </ul>
-                    <a href="https://wa.me/62812345678?text=Halo,%20saya%20mau%20konsultasi%20Paket%20E-Commerce"
+                    <a href="#"
                         class="block w-full text-center bg-slate-700 text-white py-3 rounded-xl font-bold hover:bg-slate-600 transition">Konsultasi
                         Dulu</a>
                 </div>
@@ -548,7 +548,7 @@
                 <p class="text-slate-600 mb-8 max-w-2xl mx-auto text-lg">Selain website standar, kami juga melayani
                     pembuatan Sistem Informasi, Aplikasi Kasir (POS), Web Portal, dan sistem *custom* menggunakan
                     Laravel / React.</p>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="inline-flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-brand-600 transition shadow-lg">
                     <i class="fa-solid fa-comments"></i> Mari Diskusi Bersama
                 </a>

@@ -100,7 +100,7 @@
 
                 <!-- Desktop CTA -->
                 <div class="hidden lg:block">
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="px-7 py-2.5 rounded-full font-bold transition-all duration-300 shadow-lg flex items-center gap-2"
                         :class="scrolled ? 'bg-royal-900 text-white hover:bg-royal-800' :
                             'bg-champagne-500 text-royal-950 hover:bg-champagne-400'">
@@ -136,8 +136,8 @@
                     class="text-slate-700 font-bold hover:text-royal-700 text-lg">FAQ</a>
                 <a href="#blog" @click="mobileMenu = false"
                     class="text-slate-700 font-bold hover:text-royal-700 text-lg">Jurnal Islami</a>
-                <a href="https://wa.me/62812345678"
-                    class="bg-royal-900 text-white py-3 rounded-xl font-bold text-lg mt-4 shadow-lg">Chat WhatsApp
+                <a href="#" class="bg-royal-900 text-white py-3 rounded-xl font-bold text-lg mt-4 shadow-lg">Chat
+                    WhatsApp
                     Admin</a>
             </div>
         </div>
@@ -351,7 +351,7 @@
                         <li class="flex items-start gap-3"><i class="fa-solid fa-check text-champagne-500 mt-1"></i>
                             Makan 3x Sehari (Fullboard)</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center bg-royal-50 text-royal-700 py-3 rounded-xl font-bold hover:bg-royal-100 transition">Pilih
                         Program</a>
                 </div>
@@ -384,7 +384,7 @@
                         <li class="flex items-start gap-3"><i class="fa-solid fa-star text-champagne-400 mt-1"></i>
                             City Tour Istanbul & Bursa</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center bg-champagne-500 text-royal-950 py-4 rounded-xl font-bold hover:bg-champagne-400 transition shadow-[0_0_15px_rgba(234,179,8,0.4)]">Reservasi
                         Sekarang</a>
                 </div>
@@ -412,7 +412,7 @@
                         <li class="flex items-start gap-3"><i class="fa-solid fa-check text-champagne-500 mt-1"></i>
                             Dokter Pribadi Tersedia</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center bg-royal-50 text-royal-700 py-3 rounded-xl font-bold hover:bg-royal-100 transition">Konsultasi
                         Haji</a>
                 </div>

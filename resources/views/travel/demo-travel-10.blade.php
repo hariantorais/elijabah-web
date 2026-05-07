@@ -138,7 +138,7 @@
 
                 <!-- Desktop CTA -->
                 <div class="hidden lg:block">
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="bg-emerald-600 text-white px-6 py-2.5 rounded-xl font-semibold transition hover:bg-emerald-700 shadow-lg shadow-emerald-600/30 flex items-center gap-2">
                         <i class="fa-brands fa-whatsapp"></i> Hubungi CS
                     </a>
@@ -169,7 +169,7 @@
                     class="text-slate-700 font-semibold hover:text-emerald-600">FAQ & Bantuan</a>
                 <a href="#blog" @click="mobileMenu = false"
                     class="text-slate-700 font-semibold hover:text-emerald-600">Artikel Edukasi</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="bg-emerald-600 text-white text-center py-3 rounded-xl font-bold mt-2 shadow-md">Chat
                     Admin</a>
             </div>
@@ -372,7 +372,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-emerald-500"></i>
                             Perlengkapan Handling All-in</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block w-full text-center border border-emerald-500 text-emerald-400 py-3.5 rounded-2xl font-bold hover:bg-emerald-500 hover:text-white transition">Pilih
                         Paket</a>
                 </div>
@@ -404,7 +404,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-emerald-500"></i>
                             Kereta Cepat Haramain</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block w-full text-center bg-emerald-600 text-white py-4 rounded-2xl font-bold hover:bg-emerald-700 transition shadow-lg shadow-emerald-600/30">Daftar
                         Sekarang</a>
                 </div>
@@ -433,7 +433,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-emerald-500"></i>
                             Tim Medis 24 Jam</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block w-full text-center border border-emerald-500 text-emerald-400 py-3.5 rounded-2xl font-bold hover:bg-emerald-500 hover:text-white transition">Konsultasi
                         Haji</a>
                 </div>

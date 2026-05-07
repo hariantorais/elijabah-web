@@ -91,7 +91,7 @@
                     <a href="#paket" class="hover:text-gold transition duration-300">Program VIP</a>
                     <a href="#galeri" class="hover:text-gold transition duration-300">Galeri</a>
                     <a href="#faq" class="hover:text-gold transition duration-300">FAQ</a>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="border border-gold text-gold px-6 py-2.5 hover:bg-gold hover:text-zinc-950 transition duration-300">
                         Reservasi
                     </a>
@@ -121,7 +121,7 @@
                     class="block text-sm tracking-widest uppercase font-medium text-zinc-300 hover:text-gold">Galeri</a>
                 <a href="#blog" @click="mobileMenu = false"
                     class="block text-sm tracking-widest uppercase font-medium text-zinc-300 hover:text-gold">Jurnal</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="inline-block mt-4 border border-gold text-gold px-8 py-3 w-full hover:bg-gold hover:text-zinc-950 transition">Reservasi
                     Sekarang</a>
             </div>

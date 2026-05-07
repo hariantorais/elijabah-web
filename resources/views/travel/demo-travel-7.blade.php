@@ -95,7 +95,7 @@
 
                 <!-- Desktop CTA -->
                 <div class="hidden lg:block">
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="px-6 py-2.5 rounded-full font-bold transition shadow-lg flex items-center gap-2"
                         :class="scrolled ? 'bg-primary-600 text-white hover:bg-primary-700' :
                             'bg-white text-primary-700 hover:bg-slate-50'">
@@ -131,7 +131,7 @@
                     class="text-slate-700 font-semibold hover:text-primary-600 text-lg">FAQ</a>
                 <a href="#blog" @click="mobileMenu = false"
                     class="text-slate-700 font-semibold hover:text-primary-600 text-lg">Blog</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="bg-gradient-to-r from-primary-600 to-accent text-white text-center py-4 rounded-xl font-bold text-lg mt-4 shadow-lg">Chat
                     WhatsApp</a>
             </div>
@@ -168,7 +168,7 @@
                             class="bg-white text-primary-900 px-8 py-4 rounded-full font-bold hover:bg-slate-50 transition shadow-xl text-center">
                             Cari Paket Umroh
                         </a>
-                        <a href="https://wa.me/62812345678"
+                        <a href="#"
                             class="bg-transparent border-2 border-white/30 text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition text-center">
                             Konsultasi Gratis
                         </a>
@@ -225,7 +225,8 @@
                     class="bg-white rounded-3xl p-8 shadow-soft border border-slate-100 hover:-translate-y-2 transition duration-300">
                     <div
                         class="w-14 h-14 rounded-2xl bg-primary-50 text-primary-600 flex items-center justify-center text-2xl mb-6 shadow-sm">
-                        <i class="fa-solid fa-shield-halved"></i></div>
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">Pasti Aman</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">Berizin resmi Kemenag RI dan terintegrasi dengan
                         SISKOPATUH. Dana pendaftaran Anda aman 100%.</p>
@@ -235,7 +236,8 @@
                     class="bg-white rounded-3xl p-8 shadow-soft border border-slate-100 hover:-translate-y-2 transition duration-300">
                     <div
                         class="w-14 h-14 rounded-2xl bg-primary-50 text-primary-600 flex items-center justify-center text-2xl mb-6 shadow-sm">
-                        <i class="fa-solid fa-plane-circle-check"></i></div>
+                        <i class="fa-solid fa-plane-circle-check"></i>
+                    </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">Pasti Jadwalnya</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">Kami melakukan blok kursi (*block seat*) maskapai
                         dari jauh hari. Jadwal keberangkatan terjamin akurat.</p>
@@ -245,7 +247,8 @@
                     class="bg-white rounded-3xl p-8 shadow-soft border border-slate-100 hover:-translate-y-2 transition duration-300">
                     <div
                         class="w-14 h-14 rounded-2xl bg-primary-50 text-primary-600 flex items-center justify-center text-2xl mb-6 shadow-sm">
-                        <i class="fa-solid fa-hotel"></i></div>
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">Hotel Terbaik</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">Akomodasi berstandar internasional yang letaknya
                         strategis di Ring 1, menghemat energi Anda saat beribadah.</p>
@@ -281,7 +284,8 @@
                     <span class="text-primary-600 font-bold uppercase tracking-widest text-sm mb-2 block">Tentang
                         Mabrur Travel</span>
                     <h2 class="text-4xl lg:text-5xl font-black text-slate-900 mb-6 leading-tight">Berdedikasi Untuk
-                        <br><span class="text-gradient">Tamu Allah.</span></h2>
+                        <br><span class="text-gradient">Tamu Allah.</span>
+                    </h2>
                     <p class="text-slate-600 text-lg mb-6 leading-relaxed font-medium">
                         Didirikan di Batam, Mabrur Travel hadir membawa solusi perjalanan ibadah yang modern,
                         transparan, dan bebas dari praktik terselubung.
@@ -334,25 +338,29 @@
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">
-                                <i class="fa-solid fa-check"></i></div> Tiket PP Lion/Batik Air
+                                <i class="fa-solid fa-check"></i>
+                            </div> Tiket PP Lion/Batik Air
                         </li>
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">
-                                <i class="fa-solid fa-check"></i></div> Hotel Setaraf Bintang 4
+                                <i class="fa-solid fa-check"></i>
+                            </div> Hotel Setaraf Bintang 4
                         </li>
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">
-                                <i class="fa-solid fa-check"></i></div> Fullboard Meals Nusantara
+                                <i class="fa-solid fa-check"></i>
+                            </div> Fullboard Meals Nusantara
                         </li>
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">
-                                <i class="fa-solid fa-check"></i></div> Asuransi Perjalanan
+                                <i class="fa-solid fa-check"></i>
+                            </div> Asuransi Perjalanan
                         </li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center w-full bg-primary-50 text-primary-700 py-3 rounded-xl font-bold hover:bg-primary-100 transition">Pilih
                         Paket</a>
                 </div>
@@ -379,25 +387,29 @@
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-xs text-white">
-                                <i class="fa-solid fa-check"></i></div> Direct Flight Turkish Airlines
+                                <i class="fa-solid fa-check"></i>
+                            </div> Direct Flight Turkish Airlines
                         </li>
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-xs text-white">
-                                <i class="fa-solid fa-check"></i></div> Hotel Bintang 5 (Ring 1)
+                                <i class="fa-solid fa-check"></i>
+                            </div> Hotel Bintang 5 (Ring 1)
                         </li>
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-xs text-white">
-                                <i class="fa-solid fa-check"></i></div> City Tour Istanbul (3 Hari)
+                                <i class="fa-solid fa-check"></i>
+                            </div> City Tour Istanbul (3 Hari)
                         </li>
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-xs text-white">
-                                <i class="fa-solid fa-check"></i></div> Kereta Cepat Haramain
+                                <i class="fa-solid fa-check"></i>
+                            </div> Kereta Cepat Haramain
                         </li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center w-full bg-white text-primary-900 py-3 rounded-xl font-bold hover:bg-slate-50 transition shadow-lg">Booking
                         Sekarang</a>
                 </div>
@@ -420,25 +432,29 @@
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">
-                                <i class="fa-solid fa-check"></i></div> Kepastian Kuota Resmi
+                                <i class="fa-solid fa-check"></i>
+                            </div> Kepastian Kuota Resmi
                         </li>
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">
-                                <i class="fa-solid fa-check"></i></div> Maktab VIP Arafah & Mina
+                                <i class="fa-solid fa-check"></i>
+                            </div> Maktab VIP Arafah & Mina
                         </li>
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">
-                                <i class="fa-solid fa-check"></i></div> Hotel Bintang 5 Transit
+                                <i class="fa-solid fa-check"></i>
+                            </div> Hotel Bintang 5 Transit
                         </li>
                         <li class="flex items-center gap-3">
                             <div
                                 class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">
-                                <i class="fa-solid fa-check"></i></div> Dokter Medis Pribadi
+                                <i class="fa-solid fa-check"></i>
+                            </div> Dokter Medis Pribadi
                         </li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center w-full bg-primary-50 text-primary-700 py-3 rounded-xl font-bold hover:bg-primary-100 transition">Konsultasi
                         Haji</a>
                 </div>
@@ -475,7 +491,8 @@
                         <div class="flex items-center gap-4 bg-slate-50 p-4 rounded-2xl">
                             <div
                                 class="w-16 h-16 rounded-full bg-primary-100 text-primary-600 flex items-center justify-center text-2xl">
-                                <i class="fa-solid fa-users"></i></div>
+                                <i class="fa-solid fa-users"></i>
+                            </div>
                             <div>
                                 <h4 class="font-bold text-slate-900">Tim Handling Bandara</h4>
                                 <p class="text-sm text-primary-600 font-medium">Standby CGK & JED</p>

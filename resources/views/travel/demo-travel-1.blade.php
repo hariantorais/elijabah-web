@@ -55,7 +55,7 @@
                     <a href="#paket" class="hover:text-emerald-600 transition">Paket</a>
                     <a href="#galeri" class="hover:text-emerald-600 transition">Galeri</a>
                     <a href="#faq" class="hover:text-emerald-600 transition">FAQ</a>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="bg-emerald-700 text-white px-6 py-3 rounded-full hover:bg-emerald-800 transition shadow-lg">Konsultasi
                         WA</a>
                 </div>
@@ -84,7 +84,7 @@
             <a href="#paket" @click="mobileMenu = false" class="block font-semibold hover:text-emerald-600">Paket</a>
             <a href="#galeri" @click="mobileMenu = false" class="block font-semibold hover:text-emerald-600">Galeri</a>
             <a href="#faq" @click="mobileMenu = false" class="block font-semibold hover:text-emerald-600">FAQ</a>
-            <a href="https://wa.me/62812345678"
+            <a href="#"
                 class="block w-full text-center bg-emerald-700 text-white py-3 rounded-lg hover:bg-emerald-800">WhatsApp</a>
         </div>
     </nav>

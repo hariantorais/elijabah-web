@@ -151,7 +151,7 @@
                         Lebih Cepat, <span class="text-transparent bg-clip-text bg-tech-gradient">Lebih Cerdas.</span>
                     </h1>
                     <p class="text-lg text-slate-600 mb-8 max-w-lg mx-auto lg:mx-0 font-medium leading-relaxed">
-                        Kami membantu UMKM & Bisnis Owner membangun identitas digital yang profesional, responsif, dan
+                        Kami membantu Bisnis Owner & UMKM membangun identitas digital yang profesional, responsif, dan
                         siap mendatangkan lebih banyak klien.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

@@ -96,7 +96,7 @@
 
                 <!-- Desktop CTA -->
                 <div class="hidden lg:block">
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="px-6 py-2.5 rounded-full font-bold transition shadow-lg flex items-center gap-2"
                         :class="scrolled ? 'bg-terracotta-700 text-white hover:bg-terracotta-800' :
                             'bg-terracotta-500 text-white hover:bg-terracotta-600'">
@@ -132,7 +132,7 @@
                     class="text-terracotta-900 font-medium hover:text-terracotta-600 text-lg border-b border-terracotta-200 pb-2">Testimoni</a>
                 <a href="#blog" @click="mobileMenu = false"
                     class="text-terracotta-900 font-medium hover:text-terracotta-600 text-lg border-b border-terracotta-200 pb-2">Artikel</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="bg-terracotta-700 text-white text-center py-3 rounded-full font-bold text-lg mt-4 shadow-md">Chat
                     Admin</a>
             </div>
@@ -247,7 +247,8 @@
                     class="bg-terracotta-800/50 p-8 rounded-3xl border border-terracotta-800 hover:bg-terracotta-800 transition duration-300">
                     <div
                         class="w-14 h-14 bg-terracotta-950 text-terracotta-500 rounded-full flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-shield-check"></i></div>
+                        <i class="fa-solid fa-shield-check"></i>
+                    </div>
                     <h4 class="text-xl font-bold mb-3 font-serif">Aman & Resmi</h4>
                     <p class="text-terracotta-200/80 text-sm leading-relaxed">Berizin resmi Kemenag RI. Pembayaran
                         langsung ke rekening PT untuk keamanan dana Anda.</p>
@@ -257,7 +258,8 @@
                     class="bg-terracotta-800/50 p-8 rounded-3xl border border-terracotta-800 hover:bg-terracotta-800 transition duration-300">
                     <div
                         class="w-14 h-14 bg-terracotta-950 text-terracotta-500 rounded-full flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-book-quran"></i></div>
+                        <i class="fa-solid fa-book-quran"></i>
+                    </div>
                     <h4 class="text-xl font-bold mb-3 font-serif">Sesuai Sunnah</h4>
                     <p class="text-terracotta-200/80 text-sm leading-relaxed">Kurikulum manasik yang jelas dan sesuai
                         dalil. Dibimbing Asatidz lulusan universitas Timur Tengah.</p>
@@ -267,7 +269,8 @@
                     class="bg-terracotta-800/50 p-8 rounded-3xl border border-terracotta-800 hover:bg-terracotta-800 transition duration-300">
                     <div
                         class="w-14 h-14 bg-terracotta-950 text-terracotta-500 rounded-full flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-hotel"></i></div>
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
                     <h4 class="text-xl font-bold mb-3 font-serif">Akomodasi Nyaman</h4>
                     <p class="text-terracotta-200/80 text-sm leading-relaxed">Hotel bintang 4 dan 5 di ring 1,
                         memastikan akses jalan kaki yang dekat menuju pelataran masjid.</p>
@@ -277,7 +280,8 @@
                     class="bg-terracotta-800/50 p-8 rounded-3xl border border-terracotta-800 hover:bg-terracotta-800 transition duration-300">
                     <div
                         class="w-14 h-14 bg-terracotta-950 text-terracotta-500 rounded-full flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-plane-departure"></i></div>
+                        <i class="fa-solid fa-plane-departure"></i>
+                    </div>
                     <h4 class="text-xl font-bold mb-3 font-serif">Tiket Terjamin</h4>
                     <p class="text-terracotta-200/80 text-sm leading-relaxed">Sistem block-seat jauh hari memastikan
                         jadwal keberangkatan Anda tidak akan mengalami *reschedule* sepihak.</p>
@@ -318,7 +322,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-terracotta-500"></i>
                             Fullboard Katering Nusantara</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center border border-terracotta-300 text-terracotta-900 py-3 rounded-full font-bold hover:bg-terracotta-50 transition">Detail
                         Paket</a>
                 </div>
@@ -349,7 +353,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-star text-terracotta-500"></i> City
                             Tour Istanbul & Bursa 3 Hari</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center bg-terracotta-600 text-white py-4 rounded-full font-bold hover:bg-terracotta-500 transition shadow-lg">Booking
                         Sekarang</a>
                 </div>
@@ -377,7 +381,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-terracotta-500"></i>
                             Didampingi Dokter Medis Pribadi</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="block text-center border border-terracotta-300 text-terracotta-900 py-3 rounded-full font-bold hover:bg-terracotta-50 transition">Konsultasi
                         Haji</a>
                 </div>

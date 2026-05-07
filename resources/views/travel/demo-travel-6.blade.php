@@ -90,7 +90,7 @@
             </div>
 
             <div class="hidden lg:block">
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="bg-sage-600 text-sand-50 px-6 py-2.5 rounded-full text-sm font-bold hover:bg-sage-800 transition duration-300 shadow-md">
                     Hubungi Kami
                 </a>
@@ -119,8 +119,8 @@
                     class="text-sage-800 font-bold hover:text-terracotta">FAQ</a>
                 <a href="#blog" @click="mobileMenu = false"
                     class="text-sage-800 font-bold hover:text-terracotta">Blog</a>
-                <a href="https://wa.me/62812345678"
-                    class="bg-sage-600 text-sand-50 text-center py-3 rounded-full font-bold w-full">Chat WhatsApp</a>
+                <a href="#" class="bg-sage-600 text-sand-50 text-center py-3 rounded-full font-bold w-full">Chat
+                    WhatsApp</a>
             </div>
         </nav>
     </div>
@@ -196,7 +196,8 @@
                 </div>
                 <div class="w-full lg:w-1/2">
                     <h2 class="text-4xl lg:text-5xl font-serif text-sage-900 mb-6 leading-tight">Sebuah Amanah yang
-                        <br><span class="italic text-terracotta">Kami Jaga Penuh.</span></h2>
+                        <br><span class="italic text-terracotta">Kami Jaga Penuh.</span>
+                    </h2>
                     <p class="text-sand-800 leading-relaxed mb-6 font-medium">
                         Mabrur Travel didirikan di Batam dengan visi untuk menjadi sahabat perjalanan spiritual umat
                         muslim Indonesia. Kami memahami bahwa ibadah haji dan umroh adalah panggilan jiwa yang harus
@@ -231,7 +232,8 @@
                 <div class="bg-sage-800 p-10 rounded-[2.5rem] hover:bg-sage-700 transition duration-300">
                     <div
                         class="w-16 h-16 bg-sage-600 text-sand-50 rounded-2xl flex items-center justify-center text-3xl mb-8 transform -rotate-6">
-                        <i class="fa-solid fa-mosque"></i></div>
+                        <i class="fa-solid fa-mosque"></i>
+                    </div>
                     <h3 class="text-2xl font-serif mb-3">Hotel Ring 1</h3>
                     <p class="text-sage-300 text-sm leading-relaxed">Akomodasi hotel yang sangat dekat dengan pelataran
                         masjid, memberikan kemudahan akses bagi Anda untuk beribadah 5 waktu.</p>
@@ -240,7 +242,8 @@
                 <div class="bg-sage-800 p-10 rounded-[2.5rem] hover:bg-sage-700 transition duration-300">
                     <div
                         class="w-16 h-16 bg-sage-600 text-sand-50 rounded-2xl flex items-center justify-center text-3xl mb-8 transform -rotate-6">
-                        <i class="fa-solid fa-book-open-reader"></i></div>
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
                     <h3 class="text-2xl font-serif mb-3">Sesuai Sunnah</h3>
                     <p class="text-sage-300 text-sm leading-relaxed">Seluruh rukun dan tata cara manasik dibimbing
                         langsung oleh Asatidz bermanhaj salaf, jauh dari amalan yang tidak ada tuntunannya.</p>
@@ -249,7 +252,8 @@
                 <div class="bg-sage-800 p-10 rounded-[2.5rem] hover:bg-sage-700 transition duration-300">
                     <div
                         class="w-16 h-16 bg-sage-600 text-sand-50 rounded-2xl flex items-center justify-center text-3xl mb-8 transform -rotate-6">
-                        <i class="fa-solid fa-ticket"></i></div>
+                        <i class="fa-solid fa-ticket"></i>
+                    </div>
                     <h3 class="text-2xl font-serif mb-3">Tiket Pasti</h3>
                     <p class="text-sage-300 text-sm leading-relaxed">Kepastian keberangkatan dengan sistem block seat
                         maskapai jauh sebelum pendaftaran ditutup. Anda tenang di rumah.</p>
@@ -297,7 +301,7 @@
                                 class="fa-solid fa-utensils text-sage-600"></i> Fullboard Nusantara</div>
                     </div>
                     <div class="mt-auto">
-                        <a href="https://wa.me/62812345678"
+                        <a href="#"
                             class="inline-block bg-sage-600 text-sand-50 px-8 py-3.5 rounded-full font-bold hover:bg-sage-800 transition shadow-md">Daftar
                             Paket Ini</a>
                     </div>
@@ -337,7 +341,7 @@
                                 class="fa-solid fa-camera text-terracotta"></i> City Tour Istanbul 3 Hari</div>
                     </div>
                     <div class="mt-auto">
-                        <a href="https://wa.me/62812345678"
+                        <a href="#"
                             class="inline-block bg-terracotta text-sand-50 px-8 py-3.5 rounded-full font-bold hover:bg-orange-700 transition shadow-md">Daftar
                             Paket Premium</a>
                     </div>
@@ -349,7 +353,7 @@
                 <h3 class="text-2xl font-serif text-sage-900 mb-2">Ingin Mendaftar Haji Khusus (Furoda)?</h3>
                 <p class="text-sand-800 mb-6 font-medium">Masa tunggu cepat, visa resmi, dan tenda VIP Maktab Arafah
                     Mina.</p>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="inline-block border-2 border-sage-600 text-sage-800 px-8 py-3 rounded-full font-bold hover:bg-sage-600 hover:text-sand-50 transition">Konsultasi
                     Haji</a>
             </div>

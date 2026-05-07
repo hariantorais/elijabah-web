@@ -105,7 +105,7 @@
 
                 <!-- Desktop CTA -->
                 <div class="hidden lg:block">
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="px-6 py-2.5 border border-stone-300 text-stone-800 text-xs font-medium uppercase tracking-[0.1em] hover:bg-stone-900 hover:text-white transition duration-500">
                         Konsultasi
                     </a>
@@ -134,7 +134,7 @@
                     class="text-stone-600 hover:text-olive-600 text-xs uppercase tracking-[0.15em]">Jurnal Visual</a>
                 <a href="#faq" @click="mobileMenu = false"
                     class="text-slate-600 hover:text-olive-600 text-xs uppercase tracking-[0.15em]">FAQ</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="bg-stone-900 text-white py-4 text-xs uppercase tracking-[0.15em] mx-4 mt-4">Hubungi Kami</a>
             </div>
         </div>
@@ -335,7 +335,7 @@
                         <li class="flex items-start gap-3"><span class="text-olive-600">&mdash;</span> Perlengkapan
                             Koper & Ihram/Mukena</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="inline-block border-b border-stone-800 text-stone-800 text-xs font-bold uppercase tracking-[0.1em] pb-1 hover:text-olive-600 hover:border-olive-600 transition">Minta
                         Itinerary</a>
                 </div>
@@ -361,7 +361,7 @@
                         <li class="flex items-start gap-3"><span class="text-olive-600">&mdash;</span> Kereta Cepat
                             Haramain (Makkah-Madinah)</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="inline-block border-b border-stone-800 text-stone-800 text-xs font-bold uppercase tracking-[0.1em] pb-1 hover:text-olive-600 hover:border-olive-600 transition">Booking
                         Sekarang</a>
                 </div>
@@ -388,7 +388,7 @@
                         <li class="flex items-start gap-3"><span class="text-olive-600">&mdash;</span> Didampingi Tim
                             Medis Pribadi</li>
                     </ul>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="inline-block border-b border-stone-800 text-stone-800 text-xs font-bold uppercase tracking-[0.1em] pb-1 hover:text-olive-600 hover:border-olive-600 transition">Konsultasi
                         Haji</a>
                 </div>

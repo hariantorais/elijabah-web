@@ -53,7 +53,7 @@
                     <a href="#paket" class="hover:text-amber-400 transition">Paket Tersedia</a>
                     <a href="#fasilitas" class="hover:text-amber-400 transition">Fasilitas</a>
                     <a href="#tim" class="hover:text-amber-400 transition">Pembimbing</a>
-                    <a href="https://wa.me/62812345678"
+                    <a href="#"
                         class="bg-amber-400 text-teal-950 px-5 py-2.5 rounded-lg font-bold hover:bg-amber-300 transition">
                         <i class="fa-brands fa-whatsapp mr-2"></i>Tanya Admin
                     </a>
@@ -79,7 +79,7 @@
                     Tersedia</a>
                 <a href="#fasilitas" @click="mobileMenu = false"
                     class="block text-teal-100 hover:text-white hover:bg-teal-700 px-3 py-2 rounded-md font-medium">Fasilitas</a>
-                <a href="https://wa.me/62812345678"
+                <a href="#"
                     class="block w-full text-center bg-amber-400 text-teal-900 py-3 rounded-lg font-bold mt-4">Hubungi
                     via WA</a>
             </div>
@@ -158,7 +158,8 @@
                     class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 text-center hover:-translate-y-1 transition duration-300">
                     <div
                         class="w-14 h-14 mx-auto bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center text-2xl mb-4">
-                        <i class="fa-solid fa-shield-check"></i></div>
+                        <i class="fa-solid fa-shield-check"></i>
+                    </div>
                     <h3 class="font-bold text-stone-900 mb-2">Legalitas Jelas</h3>
                     <p class="text-xs text-stone-500">Terdaftar di SISKOPATUH Kemenag RI.</p>
                 </div>
@@ -166,7 +167,8 @@
                     class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 text-center hover:-translate-y-1 transition duration-300">
                     <div
                         class="w-14 h-14 mx-auto bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center text-2xl mb-4">
-                        <i class="fa-solid fa-plane-arrival"></i></div>
+                        <i class="fa-solid fa-plane-arrival"></i>
+                    </div>
                     <h3 class="font-bold text-stone-900 mb-2">Pasti Jadwalnya</h3>
                     <p class="text-xs text-stone-500">Blok seat pesawat dilakukan jauh hari.</p>
                 </div>
@@ -174,7 +176,8 @@
                     class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 text-center hover:-translate-y-1 transition duration-300">
                     <div
                         class="w-14 h-14 mx-auto bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center text-2xl mb-4">
-                        <i class="fa-solid fa-hotel"></i></div>
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
                     <h3 class="font-bold text-stone-900 mb-2">Hotel Ring 1</h3>
                     <p class="text-xs text-stone-500">Akomodasi dekat Masjid, hemat energi.</p>
                 </div>
@@ -182,7 +185,8 @@
                     class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 text-center hover:-translate-y-1 transition duration-300">
                     <div
                         class="w-14 h-14 mx-auto bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center text-2xl mb-4">
-                        <i class="fa-solid fa-book-open-reader"></i></div>
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
                     <h3 class="font-bold text-stone-900 mb-2">Sesuai Sunnah</h3>
                     <p class="text-xs text-stone-500">Bimbingan ibadah murni ajaran Nabi ﷺ.</p>
                 </div>
@@ -335,7 +339,8 @@
                         <li class="flex items-start gap-4">
                             <div
                                 class="w-8 h-8 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center flex-shrink-0 mt-1">
-                                <i class="fa-solid fa-check text-sm"></i></div>
+                                <i class="fa-solid fa-check text-sm"></i>
+                            </div>
                             <div>
                                 <h4 class="font-bold text-stone-900">Penerbangan Nyaman</h4>
                                 <p class="text-sm text-stone-500">Menggunakan maskapai komersial bereputasi tinggi
@@ -345,7 +350,8 @@
                         <li class="flex items-start gap-4">
                             <div
                                 class="w-8 h-8 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center flex-shrink-0 mt-1">
-                                <i class="fa-solid fa-check text-sm"></i></div>
+                                <i class="fa-solid fa-check text-sm"></i>
+                            </div>
                             <div>
                                 <h4 class="font-bold text-stone-900">Akomodasi Strategis</h4>
                                 <p class="text-sm text-stone-500">Hotel ring 1 dan 2 di Makkah & Madinah untuk
@@ -355,7 +361,8 @@
                         <li class="flex items-start gap-4">
                             <div
                                 class="w-8 h-8 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center flex-shrink-0 mt-1">
-                                <i class="fa-solid fa-check text-sm"></i></div>
+                                <i class="fa-solid fa-check text-sm"></i>
+                            </div>
                             <div>
                                 <h4 class="font-bold text-stone-900">Katering Cita Rasa Nusantara</h4>
                                 <p class="text-sm text-stone-500">Makanan 3x sehari yang disesuaikan dengan lidah orang
