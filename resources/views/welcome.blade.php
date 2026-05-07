@@ -113,8 +113,8 @@
                     class="block font-bold text-slate-700 text-lg hover:text-brand-600">Beranda</a>
                 <a href="#layanan" @click="mobileMenu = false"
                     class="block font-bold text-slate-700 text-lg hover:text-brand-600">Layanan</a>
-                <a href="#portfolio" @click="mobileMenu = false"
-                    class="block font-bold text-slate-700 text-lg hover:text-brand-600">Portofolio</a>
+                <a href="#template" @click="mobileMenu = false"
+                    class="block font-bold text-slate-700 text-lg hover:text-brand-600">Template</a>
                 <a href="#harga" @click="mobileMenu = false"
                     class="block font-bold text-slate-700 text-lg hover:text-brand-600">Harga</a>
                 <a href="#faq" @click="mobileMenu = false"
