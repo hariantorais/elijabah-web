@@ -288,8 +288,8 @@
                         class="w-14 h-14 mx-auto bg-cyan-100 text-cyan-600 rounded-2xl flex items-center justify-center text-2xl mb-4 transform rotate-6">
                         <i class="fa-solid fa-headset"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Support 1 Bulan</h3>
-                    <p class="text-slate-500 text-sm">Gratis perbaikan bug dan konsultasi teknis selama 30 hari setelah
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Support 6 Bulan</h3>
+                    <p class="text-slate-500 text-sm">Gratis perbaikan bug dan konsultasi teknis selama 6 bulan setelah
                         web selesai.</p>
                 </div>
             </div>
