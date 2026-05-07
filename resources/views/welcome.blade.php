@@ -638,6 +638,104 @@
         </div>
     </section>
 
+    <section class="py-24 bg-slate-50 relative overflow-hidden">
+        <!-- Dekorasi Background -->
+        <div
+            class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:20px_20px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]">
+        </div>
+
+        <div class="container mx-auto px-6 relative">
+            <div class="text-center max-w-2xl mx-auto mb-20">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Proses Kerja <span
+                        class="text-brand-600">Profesional</span></h2>
+                <p class="text-slate-600">Dari ide hingga peluncuran, kami memastikan setiap tahap pengerjaan
+                    transparan dan terukur.</p>
+            </div>
+
+            <div class="relative">
+                <!-- Garis Timeline (Desktop) -->
+                <div class="hidden lg:block absolute top-12 left-0 w-full h-0.5 bg-slate-200">
+                    <div class="absolute top-0 left-0 h-full bg-brand-500 w-1/2"></div> <!-- Progress bar dekorasi -->
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 relative">
+
+                    <!-- Step 1 -->
+                    <div class="relative group">
+                        <div class="mb-6 lg:mb-10 relative">
+                            <div
+                                class="w-16 h-16 bg-white border-4 border-slate-50 rounded-2xl shadow-xl flex items-center justify-center text-2xl text-brand-600 relative z-10 group-hover:bg-brand-600 group-hover:text-white transition-all duration-300">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+                            <div
+                                class="hidden lg:block absolute top-8 left-16 w-full h-0.5 border-t-2 border-dashed border-slate-300 -z-0">
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">01. Konsultasi</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed">Diskusi detail kebutuhan bisnis Anda, target
+                            audiens, dan fitur yang diinginkan secara gratis.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="relative group">
+                        <div class="mb-6 lg:mb-10 relative">
+                            <div
+                                class="w-16 h-16 bg-white border-4 border-slate-50 rounded-2xl shadow-xl flex items-center justify-center text-2xl text-brand-600 relative z-10 group-hover:bg-brand-600 group-hover:text-white transition-all duration-300">
+                                <i class="fa-solid fa-file-invoice-dollar"></i>
+                            </div>
+                            <div
+                                class="hidden lg:block absolute top-8 left-16 w-full h-0.5 border-t-2 border-dashed border-slate-300 -z-0">
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">02. Penawaran & DP</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed">Penyusunan surat penawaran resmi. Setelah
+                            disetujui, pengerjaan dimulai setelah pembayaran DP.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="relative group">
+                        <div class="mb-6 lg:mb-10 relative">
+                            <div
+                                class="w-16 h-16 bg-white border-4 border-slate-50 rounded-2xl shadow-xl flex items-center justify-center text-2xl text-brand-600 relative z-10 group-hover:bg-brand-600 group-hover:text-white transition-all duration-300">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div
+                                class="hidden lg:block absolute top-8 left-16 w-full h-0.5 border-t-2 border-dashed border-slate-300 -z-0">
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">03. Development</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed">Proses koding dan desain dimulai. Kami akan
+                            memberikan update berkala agar Anda bisa memantau progres.</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="relative group">
+                        <div class="mb-6 lg:mb-10 relative">
+                            <div
+                                class="w-16 h-16 bg-brand-600 border-4 border-brand-100 rounded-2xl shadow-xl shadow-brand-200 flex items-center justify-center text-2xl text-white relative z-10 animate-bounce">
+                                <i class="fa-solid fa-rocket"></i>
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">04. Final Check & Live</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed">Testing menyeluruh, pelunasan, dan website
+                            siap dipublish ke domain utama Anda.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Call to Action Kecil -->
+            <div class="mt-20 flex justify-center">
+                <a href="https://wa.me/{{ settings('contact_phone') }}"
+                    class="inline-flex items-center gap-3 bg-white border border-slate-200 px-6 py-3 rounded-full text-slate-700 font-bold hover:bg-slate-50 transition shadow-sm group">
+                    <span class="w-2 h-2 bg-emerald-500 rounded-full animate-ping"></span>
+                    Siap memulai proyek Anda sekarang?
+                    <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- 7. CTA BANNER -->
     <section class="py-20 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
