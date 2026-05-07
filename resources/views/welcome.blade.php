@@ -315,59 +315,163 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Layanan 1 -->
                 <div
-                    class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-brand-300 transition-all duration-300 group">
+                    class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-brand-400 transition-all duration-500 group relative overflow-hidden">
+                    <!-- Dekorasi Cahaya Belakang (Hover) -->
                     <div
-                        class="w-16 h-16 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition">
-                        <i class="fa-solid fa-building"></i>
+                        class="absolute -right-4 -top-4 w-24 h-24 bg-brand-50 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500 blur-2xl">
                     </div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Company Profile</h3>
-                    <p class="text-slate-600 text-sm mb-6 leading-relaxed">Website profil perusahaan untuk meningkatkan
-                        kredibilitas, menampilkan layanan, portofolio, dan memudahkan klien menghubungi Anda.</p>
-                    <ul class="space-y-2 text-sm text-slate-600 font-medium mb-6">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-500"></i> Desain
-                            Eksklusif</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-500"></i> Integrasi
-                            WhatsApp</li>
+
+                    <!-- Ikon Container -->
+                    <div
+                        class="w-16 h-16 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition-all duration-300">
+                        <i class="fa-solid fa-building-premium fa-building"></i>
+                    </div>
+
+                    <!-- Judul -->
+                    <h3 class="text-2xl font-black text-slate-900 mb-3 tracking-tight">Company <span
+                            class="text-brand-600">Profile</span></h3>
+
+                    <!-- Deskripsi -->
+                    <p class="text-slate-600 text-sm mb-6 leading-relaxed font-medium">
+                        Bangun citra profesional di dunia digital. Website yang didesain khusus untuk meningkatkan
+                        kepercayaan mitra bisnis dan memperluas jangkauan pasar.
+                    </p>
+
+                    <!-- Fitur List -->
+                    <ul class="space-y-3 text-sm text-slate-600 font-semibold mb-6">
+                        <li class="flex items-center gap-3">
+                            <div
+                                class="w-5 h-5 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-[10px] text-brand-600"></i>
+                            </div>
+                            Desain Eksklusif & Modern
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div
+                                class="w-5 h-5 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-[10px] text-brand-600"></i>
+                            </div>
+                            Portofolio & Galeri Layanan
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div
+                                class="w-5 h-5 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-[10px] text-brand-600"></i>
+                            </div>
+                            SEO Friendly & Integrasi Maps
+                        </li>
                     </ul>
+
+
                 </div>
 
                 <!-- Layanan 2 -->
                 <div
-                    class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-cyan-300 transition-all duration-300 group relative overflow-hidden">
+                    class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-cyan-400 transition-all duration-500 group relative overflow-hidden">
+                    <!-- Label Paling Dicari dengan Tech Gradient -->
+
+
+                    <!-- Dekorasi Cahaya Belakang (Hover) -->
                     <div
-                        class="absolute top-0 right-0 bg-tech-gradient text-white text-[10px] font-bold uppercase px-4 py-1 rounded-bl-xl">
-                        Paling Dicari</div>
+                        class="absolute -right-4 -top-4 w-24 h-24 bg-cyan-50 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500 blur-2xl">
+                    </div>
+
+                    <!-- Ikon Container -->
                     <div
-                        class="w-16 h-16 bg-cyan-50 text-cyan-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition">
+                        class="w-16 h-16 bg-cyan-50 text-cyan-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-cyan-600 group-hover:text-white group-hover:-rotate-6 transition-all duration-300">
                         <i class="fa-solid fa-cart-shopping"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Toko Online (E-Commerce)</h3>
-                    <p class="text-slate-600 text-sm mb-6 leading-relaxed">Sistem jual beli online lengkap dengan
-                        manajemen produk, keranjang belanja, kalkulasi ongkir otomatis, dan payment gateway.</p>
-                    <ul class="space-y-2 text-sm text-slate-600 font-medium mb-6">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500"></i> Integrasi
-                            Payment Gateway</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500"></i> Cek Ongkir
-                            Otomatis</li>
+
+                    <!-- Judul -->
+                    <h3 class="text-2xl font-black text-slate-900 mb-3 tracking-tight">Toko <span
+                            class="text-brand-600">Online</span> </h3>
+
+                    <!-- Deskripsi -->
+                    <p class="text-slate-600 text-sm mb-6 leading-relaxed font-medium">
+                        Transformasi bisnis Anda ke ranah digital dengan sistem jual beli otomatis yang siap
+                        menangani
+                        ribuan transaksi setiap harinya secara aman.
+                    </p>
+
+                    <!-- Fitur List -->
+                    <ul class="space-y-3 text-sm text-slate-600 font-semibold mb-6">
+                        <li class="flex items-center gap-3">
+                            <div
+                                class="w-5 h-5 rounded-full bg-cyan-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-[10px] text-cyan-600"></i>
+                            </div>
+                            Payment Gateway (Midtrans/Xendit)
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div
+                                class="w-5 h-5 rounded-full bg-cyan-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-[10px] text-cyan-600"></i>
+                            </div>
+                            Kalkulasi Ongkir Otomatis (RajaOngkir)
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div
+                                class="w-5 h-5 rounded-full bg-cyan-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-[10px] text-cyan-600"></i>
+                            </div>
+                            Manajemen Stok & Laporan Penjualan
+                        </li>
                     </ul>
+
+
                 </div>
 
                 <!-- Layanan 3 -->
                 <div
-                    class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-brand-300 transition-all duration-300 group">
+                    class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-brand-400 transition-all duration-500 group relative overflow-hidden">
+                    <!-- Dekorasi Aksent (Opsional) -->
                     <div
-                        class="w-16 h-16 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition">
-                        <i class="fa-solid fa-window-maximize"></i>
+                        class="absolute -right-4 -top-4 w-24 h-24 bg-brand-50 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500 blur-2xl">
                     </div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Landing Page</h3>
-                    <p class="text-slate-600 text-sm mb-6 leading-relaxed">Halaman tunggal yang didesain khusus untuk
-                        kampanye iklan (Ads) dengan struktur copywriting yang memaksimalkan konversi penjualan.</p>
-                    <ul class="space-y-2 text-sm text-slate-600 font-medium mb-6">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-500"></i> High
-                            Conversion Rate</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-500"></i>
-                            Pemasangan Pixel/Analytics</li>
+
+                    <!-- Ikon Container -->
+                    <div
+                        class="w-16 h-16 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-600 group-hover:text-white group-hover:rotate-6 transition-all duration-300">
+                        <i class="fa-solid fa-code-merge"></i>
+                    </div>
+
+                    <!-- Judul -->
+                    <h3 class="text-2xl font-black text-slate-900 mb-3 tracking-tight">Web App <span
+                            class="text-brand-600">Custom</span> </h3>
+
+                    <!-- Deskripsi -->
+                    <p class="text-slate-600 text-sm mb-6 leading-relaxed font-medium">
+                        Solusi sistem berbasis web yang dibangun dari nol sesuai alur bisnis spesifik Anda yang dibangun
+                        dengan
+                        <span class="text-slate-900 font-bold">Stack Modern</span> untuk performa maksimal.
+                    </p>
+
+                    <!-- Fitur List -->
+                    <ul class="space-y-3 text-sm text-slate-600 font-semibold mb-6">
+                        <li class="flex items-center gap-3">
+                            <div
+                                class="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-[10px] text-emerald-600"></i>
+                            </div>
+                            Skalabilitas Tinggi (Bisa Dikembangkan)
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div
+                                class="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-[10px] text-emerald-600"></i>
+                            </div>
+                            Integrasi API & Database Kompleks
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div
+                                class="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-[10px] text-emerald-600"></i>
+                            </div>
+                            Dashboard Admin Eksklusif
+                        </li>
                     </ul>
+
+
                 </div>
             </div>
         </div>
