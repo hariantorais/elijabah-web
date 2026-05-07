@@ -861,11 +861,7 @@
                         <li class="flex items-center gap-3"><i
                                 class="fa-brands fa-whatsapp text-brand-500 text-lg"></i>
                             {{ settings('contact_phone') }}</li>
-                        <li
-                            class="flex items-start gap-3 mt-4 text-xs bg-slate-50 p-3 rounded-lg border border-slate-100">
-                            <i class="fa-solid fa-clock mt-0.5 text-brand-500"></i>
-                            Senin - Jumat (09.00 - 17.00 WIB)<br>Sabtu & Minggu Libur
-                        </li>
+
                     </ul>
                 </div>
             </div>
