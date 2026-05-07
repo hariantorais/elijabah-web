@@ -562,9 +562,24 @@
                     <h3 class="text-xl font-bold text-white mb-2">Infrastuktur Digital</h3>
                     <p class="text-brand-100 text-xs mb-6">Cocok untuk biro travel, pondok pesantren dan bisnis
                         menengah. Pengerjaan 1-2 minggu.</p>
+
+                    <!-- Bagian Harga dengan Coretan -->
                     <div class="mb-8">
-                        <span class="text-4xl font-extrabold text-white">Rp 3,5</span><span
-                            class="text-lg text-brand-100"> Jt</span>
+                        <!-- Harga Lama (Coret) -->
+                        <div class="flex items-center gap-2 mb-1">
+                            <span
+                                class="text-brand-300/80 line-through text-sm decoration-amber-400/60 decoration-2">Rp
+                                5 Jt</span>
+                            <span
+                                class="bg-amber-400/20 text-amber-300 text-[9px] font-bold px-2 py-0.5 rounded-full border border-amber-400/30">HEMAT
+                                30%</span>
+                        </div>
+
+                        <!-- Harga Baru -->
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-extrabold text-white">Rp 3,5</span>
+                            <span class="text-lg text-brand-100 ml-1"> Jt</span>
+                        </div>
                     </div>
 
                     <ul class="space-y-3 mb-8 text-sm text-white font-medium">
@@ -583,8 +598,9 @@
 
                     <a href="https://wa.me/{{ settings('contact_phone') }}?text=Halo, saya mau pesan Paket Bisnis (3.5 Jt)"
                         target="_blank"
-                        class="block w-full text-center bg-white text-brand-700 py-4 rounded-xl font-black text-black hover:bg-slate-100 transition shadow-xl uppercase text-xs tracking-widest">Ambil
-                        Promo Ini</a>
+                        class="block w-full text-center bg-white text-brand-700 py-4 rounded-xl font-black transition shadow-xl uppercase text-xs tracking-widest hover:scale-[1.02] active:scale-95 transition-all duration-200">
+                        Ambil Promo Ini
+                    </a>
                 </div>
 
                 <!-- Paket 3: Toko Online (E-Commerce) -->
