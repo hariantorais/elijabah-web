@@ -604,7 +604,7 @@
                             <span class="underline decoration-2">Semua
                                 Fitur Infrastruktur Digital</span>
                         </li>
-                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> HAlur
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Alur
                             Bisnis Sesuai Permintaan</li>
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i>
                             Integrasi Pembayaran Online</li>
