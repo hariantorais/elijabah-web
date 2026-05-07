@@ -116,7 +116,9 @@
                 <a href="#portfolio" @click="mobileMenu = false"
                     class="block font-bold text-slate-700 text-lg hover:text-brand-600">Portofolio</a>
                 <a href="#harga" @click="mobileMenu = false"
-                    class="block font-bold text-slate-700 text-lg hover:text-brand-600">Harga Paket</a>
+                    class="block font-bold text-slate-700 text-lg hover:text-brand-600">Harga</a>
+                <a href="#faq" @click="mobileMenu = false"
+                    class="block font-bold text-slate-700 text-lg hover:text-brand-600">FAQ</a>
                 <a href="https://wa.me/{{ settings('contact_phone') }}"
                     class="block w-full bg-tech-gradient text-white py-3 rounded-xl font-bold mt-4 shadow-md">
                     Hubungi Kami
