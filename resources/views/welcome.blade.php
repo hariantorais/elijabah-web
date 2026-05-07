@@ -289,7 +289,7 @@
                         <i class="fa-solid fa-headset"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 mb-2">Support 6 Bulan</h3>
-                    <p class="text-slate-500 text-sm">Gratis perbaikan bug dan konsultasi teknis selama 6 bulan setelah
+                    <p class="text-slate-500 text-sm">Gratis perbaikan bug dan konsultasi teknis selama 30 hari setelah
                         web selesai.</p>
                 </div>
             </div>
@@ -411,22 +411,22 @@
                         x-transition:enter-end="opacity-100 transform scale-100"
                         class="group flex flex-col h-full bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-2xl hover:shadow-brand-500/10 transition-all duration-500">
 
-                        <!-- Frame Gambar (Stretch & Hover Effect) -->
+                        <!-- Frame Gambar -->
                         <div
-                            class="relative w-full h-50 rounded-t-3xl overflow-hidden bg-slate-200 border border-slate-100">
+                            class="relative w-full h-52 rounded-t-3xl overflow-hidden bg-slate-200 border border-slate-100">
                             <img src="{{ asset('images/templates/' . $item['route'] . '.png') }}"
                                 alt="{{ $item['name'] }}"
                                 class="w-full h-full object-cover object-top group-hover:scale-110 transition duration-1000 ease-in-out"
                                 onerror="this.src='https://placehold.co/600x800/cbd5e1/64748b?text={{ $item['uid'] }}'">
 
-                            <!-- Overlay Gradient (Agar info palette terlihat jelas) -->
+                            <!-- Overlay Gradient -->
                             <div
                                 class="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent opacity-60">
                             </div>
 
-                            <!-- Overlay Tombol yang Lebih Smooth -->
+                            <!-- OVERLAY TOMBOL (HANYA DESKTOP - lg:flex) -->
                             <div
-                                class="absolute inset-0 bg-slate-900/60 opacity-0 group-hover:opacity-100 backdrop-blur-[2px] transition-all duration-300 flex flex-col items-center justify-center gap-4">
+                                class="hidden lg:flex absolute inset-0 bg-slate-900/60 opacity-0 group-hover:opacity-100 backdrop-blur-[2px] transition-all duration-300 flex-col items-center justify-center gap-4">
                                 <a href="{{ route($item['route']) }}"
                                     class="w-32 bg-white text-slate-900 py-2.5 rounded-xl font-bold text-sm text-center transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:bg-brand-500 hover:text-white">
                                     <i class="fa-solid fa-laptop-code mr-2"></i>Live Demo
@@ -437,9 +437,9 @@
                                 </a>
                             </div>
 
-                            <!-- Palette Warna (Floating Chip Style) -->
+                            <!-- Palette Warna (Selalu terlihat, di mobile kita beri margin kanan agar tidak tabrakan) -->
                             <div
-                                class="absolute bottom-4 left-4 flex gap-1.5 bg-white/20 backdrop-blur-md p-1.5 rounded-full">
+                                class="absolute bottom-4 left-4 flex gap-1.5 bg-white/20 backdrop-blur-md p-1.5 rounded-full z-10">
                                 @foreach ($item['palette'] as $color)
                                     <div class="w-4 h-4 rounded-full border-2 border-white/50"
                                         style="background-color: {{ $color }}" title="{{ $color }}">
@@ -448,7 +448,7 @@
                             </div>
 
                             <!-- Badge Kategori -->
-                            <div class="absolute top-4 right-4">
+                            <div class="absolute top-4 right-4 z-10">
                                 <span
                                     class="bg-brand-500 text-white text-[9px] font-black px-3 py-1.5 rounded-lg uppercase tracking-widest shadow-lg">
                                     {{ $item['category_label'] }}
@@ -457,7 +457,7 @@
                         </div>
 
                         <!-- Bagian Info Content -->
-                        <div class="flex flex-col flex-grow px-3 py-5">
+                        <div class="flex flex-col flex-grow px-5 py-5">
                             <div class="flex justify-between items-start mb-2">
                                 <h3
                                     class="text-xl font-extrabold text-slate-900 group-hover:text-brand-600 transition-colors duration-300 leading-tight">
@@ -468,11 +468,21 @@
                                 </span>
                             </div>
 
-                            <p class="text-sm text-slate-500 leading-relaxed line-clamp-2 font-medium mb-4">
+                            <p class="text-sm text-slate-500 leading-relaxed line-clamp-2 font-medium mb-5">
                                 {{ $item['desc'] }}
                             </p>
 
-
+                            <!-- TOMBOL KHUSUS MOBILE (HANYA MUNCUL DI BAWAH lg) -->
+                            <div class="grid grid-cols-2 gap-3 mt-auto lg:hidden">
+                                <a href="{{ route($item['route']) }}"
+                                    class="flex items-center justify-center gap-2 bg-slate-100 text-slate-900 py-3 rounded-xl font-bold text-xs active:scale-95 transition-all">
+                                    <i class="fa-solid fa-laptop-code text-brand-500"></i> Demo
+                                </a>
+                                <a href="https://wa.me/{{ settings('contact_phone') }}?text=Halo,+saya+ingin+menggunakan+template+{{ $item['uid'] }}"
+                                    class="flex items-center justify-center gap-2 bg-brand-500 text-white py-3 rounded-xl font-bold text-xs shadow-md active:scale-95 transition-all">
+                                    <i class="fa-brands fa-whatsapp"></i> Pilih
+                                </a>
+                            </div>
                         </div>
                     </div>
                 @endforeach
