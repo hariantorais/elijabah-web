@@ -4,13 +4,13 @@ function templates()
 {
    return [
       // ==========================================
-      // TRAVEL & UMROH (ID: 1 - 12)
+      // Biro Travel (ID: 1 - 12)
       // ==========================================
       [
          'id' => 1,
          'uid' => 'TRV-01',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-1',
          'name' => 'Classic Emerald',
          'desc' => 'Nuansa islami tradisional dengan hijau zamrud dan aksen emas mewah.',
@@ -21,7 +21,7 @@ function templates()
          'id' => 2,
          'uid' => 'TRV-02',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-2',
          'name' => 'Light Elegant',
          'desc' => 'Desain bersih, minimalis, dan lega untuk paket umroh premium.',
@@ -32,7 +32,7 @@ function templates()
          'id' => 3,
          'uid' => 'TRV-03',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-3',
          'name' => 'Corporate Trust',
          'desc' => 'Tampilan profesional dan kokoh untuk membangun kepercayaan jamaah.',
@@ -43,7 +43,7 @@ function templates()
          'id' => 4,
          'uid' => 'TRV-04',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-4',
          'name' => 'Desert Earth',
          'desc' => 'Warna bumi (sand & clay) yang memberikan nuansa ketenangan ibadah.',
@@ -54,7 +54,7 @@ function templates()
          'id' => 5,
          'uid' => 'TRV-05',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-5',
          'name' => 'Modern Bold',
          'desc' => 'Tipografi besar dan kontras tinggi untuk target audiens milenial.',
@@ -65,7 +65,7 @@ function templates()
          'id' => 6,
          'uid' => 'TRV-06',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-6',
          'name' => 'Soft Family',
          'desc' => 'Warna pastel yang ramah dan hangat untuk paket umroh keluarga.',
@@ -76,7 +76,7 @@ function templates()
          'id' => 7,
          'uid' => 'TRV-07',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-7',
          'name' => 'Dynamic Tech',
          'desc' => 'Gaya aplikasi modern (Startup style) dengan navigasi yang sangat cepat.',
@@ -87,7 +87,7 @@ function templates()
          'id' => 8,
          'uid' => 'TRV-08',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-8',
          'name' => 'Royal Majesty',
          'desc' => 'Kombinasi ungu royal dan gold untuk layanan Haji Plus VVIP.',
@@ -98,7 +98,7 @@ function templates()
          'id' => 9,
          'uid' => 'TRV-09',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-9',
          'name' => 'Warm Sunset',
          'desc' => 'Inspirasi warna langit Makkah saat senja yang penuh emosional.',
@@ -109,7 +109,7 @@ function templates()
          'id' => 10,
          'uid' => 'TRV-10',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-10',
          'name' => 'Glassmorphism UI',
          'desc' => 'Efek kaca transparan yang futuristik untuk biro travel modern.',
@@ -120,7 +120,7 @@ function templates()
          'id' => 11,
          'uid' => 'TRV-11',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-11',
          'name' => 'Midnight Gold',
          'desc' => 'Mode gelap (Dark mode) yang sangat elegan dan eksklusif.',
@@ -131,7 +131,7 @@ function templates()
          'id' => 12,
          'uid' => 'TRV-12',
          'category_slug' => 'travel',
-         'category_label' => 'Travel & Umroh',
+         'category_label' => 'Biro Travel',
          'route' => 'demo-travel-12',
          'name' => 'Serene Minimalist',
          'desc' => 'Sangat sedikit elemen visual, fokus pada ketenangan konten.',
@@ -243,13 +243,13 @@ function templates()
       ],
 
       // ==========================================
-      // PENDIDIKAN & education (ID: 22)
+      // Pendidikan & Institusi (ID: 22)
       // ==========================================
       [
          'id' => 22,
          'uid' => 'EDU-01',
          'category_slug' => 'education',
-         'category_label' => 'Pendidikan & education',
+         'category_label' => 'Pendidikan & Institusi',
          'route' => 'demo-education-1',
          'name' => 'Akademi Nusantara',
          'desc' => 'Institusi formal dengan fitur PPDB, berita, dan alur pendaftaran lengkap.',
