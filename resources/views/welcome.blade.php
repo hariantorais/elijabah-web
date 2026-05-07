@@ -302,14 +302,16 @@
     <!-- 4. LAYANAN KAMI -->
     <section id="layanan" class="py-24 bg-slate-50 border-y border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
-                <div>
-                    <span class="text-brand-600 font-bold tracking-widest text-xs uppercase mb-3 block">Keahlian
-                        Kami</span>
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Spesialisasi Pengembangan</h2>
-                </div>
-                <p class="text-slate-500 max-w-md font-medium text-sm">Dari website sederhana hingga sistem aplikasi
-                    kompleks, kami siap mewujudkan ide digital Anda.</p>
+
+
+            <div class="text-center mb-16">
+                <span class="text-brand-600 font-bold tracking-widest text-xs uppercase mb-3 block">Keahlian
+                    Kami</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Spesialisasi Pengembangan</h2>
+                <p class="text-slate-500 max-w-2xl mx-auto font-medium">
+                    Dari website sederhana hingga sistem aplikasi
+                    kompleks, kami siap mewujudkan ide digital Anda.
+                </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
