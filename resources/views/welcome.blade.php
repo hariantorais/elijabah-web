@@ -568,7 +568,7 @@
                         <!-- Harga Lama (Coret) -->
                         <div class="flex items-center gap-2 mb-1">
                             <span
-                                class="text-brand-300/80 line-through text-sm decoration-amber-400/60 decoration-2">Rp
+                                class="text-brand-300/80 line-through text-sm decoration-amber-400/60 decoration-1">Rp
                                 5 Jt</span>
                             <span
                                 class="bg-amber-400/20 text-amber-300 text-[9px] font-bold px-2 py-0.5 rounded-full border border-amber-400/30">HEMAT
@@ -598,7 +598,7 @@
 
                     <a href="https://wa.me/{{ settings('contact_phone') }}?text=Halo, saya mau pesan Paket Bisnis (3.5 Jt)"
                         target="_blank"
-                        class="block w-full text-center bg-white text-brand-700 py-4 rounded-xl font-black transition shadow-xl uppercase text-xs tracking-widest hover:scale-[1.02] active:scale-95 transition-all duration-200">
+                        class="block w-full text-center bg-white text-brand-700 py-4 rounded-xl font-black transition shadow-xl uppercase text-xs tracking-widest hover:scale-[1.02] text-black active:scale-95 transition-all duration-200">
                         Ambil Promo Ini
                     </a>
                 </div>
