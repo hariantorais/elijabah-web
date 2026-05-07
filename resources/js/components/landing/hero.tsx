@@ -1,7 +1,10 @@
+import { usePage } from '@inertiajs/react';
 import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle } from 'lucide-react';
+import type { Contact } from '@/types/data';
 
 export default function Hero() {
+    const { contacts } = usePage<{ contacts: Contact }>().props;
     return (
         <section className="relative flex min-h-screen items-center overflow-hidden px-6">
             {/* Background Decoration - Dengan tambahan Motif Grid */}
@@ -27,11 +30,11 @@ export default function Hero() {
                     transition={{ duration: 1, ease: 'circOut' }}
                 >
                     {/* Headline - Perbaikan Spacing & Typography */}
-                    <h1 className="mb-8 text-6xl leading-[0.85] font-black tracking-tighter italic md:text-[3.8rem]">
+                    <h1 className="mb-8 text-4xl font-black tracking-tighter italic md:text-2xl lg:text-6xl">
                         Bangun{' '}
-                        <span className="text-[#006442]">Kepercayaan</span>{' '}
-                        <br />
-                        Digital{' '}
+                        <span className="text-[#006442]">
+                            Kepercayaan Digital
+                        </span>{' '}
                         <span className="relative inline-block">
                             Bisnis
                             {/* Efek Garis Bawah yang muncul saat load */}
@@ -58,17 +61,23 @@ export default function Hero() {
 
                     {/* CTA Group */}
                     <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
-                        <motion.button
-                            whileHover={{
-                                scale: 1.05,
-                                boxShadow: '0 20px 40px rgba(0,100,66,0.2)',
-                            }}
-                            whileTap={{ scale: 0.95 }}
-                            className="group flex items-center justify-center gap-4 rounded-4xl bg-[#006442] px-12 py-4 text-xl font-black text-white transition-all"
+                        <a
+                            href={`https://wa.me/62${contacts.phone.replace(/[^0-9]/g, '')}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
-                            Konsultasi Sekarang{' '}
-                            <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-2" />
-                        </motion.button>
+                            <motion.button
+                                whileHover={{
+                                    scale: 1.05,
+                                    boxShadow: '0 20px 40px rgba(0,100,66,0.2)',
+                                }}
+                                whileTap={{ scale: 0.95 }}
+                                className="group flex items-center justify-center gap-4 rounded-4xl bg-[#006442] px-5 py-4 text-xl font-black text-white transition-all lg:px-12"
+                            >
+                                Konsultasi Sekarang{' '}
+                                <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-2" />
+                            </motion.button>
+                        </a>
                     </div>
                 </motion.div>
 

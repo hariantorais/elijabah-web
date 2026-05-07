@@ -71,7 +71,7 @@ const WhyChooseUs = () => {
                 </div>
 
                 {/* Grid Content */}
-                <div className="grid grid-cols-1 gap-px overflow-hidden rounded-3xl border border-slate-800 bg-slate-800 shadow-2xl md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-slate-800 bg-slate-800 shadow-2xl md:grid-cols-2 lg:grid-cols-3">
                     {reasons.map((item, index) => (
                         <motion.div
                             key={item.no}
@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
                             whileInView={{ opacity: 1 }}
                             transition={{ delay: index * 0.1 }}
                             viewport={{ once: true }}
-                            className="group relative bg-slate-900 p-10 transition-all duration-500 hover:bg-slate-800/50"
+                            className="group relative bg-slate-900 p-5 transition-all duration-500 hover:bg-slate-800/50 lg:p-10"
                         >
                             {/* Card Number */}
                             <div className="absolute top-8 right-8 text-6xl font-black text-slate-800/40 transition-colors duration-500 group-hover:text-emerald-500/10">

@@ -42,6 +42,13 @@ class HandleInertiaRequests extends Middleware
                 'user' => $request->user(),
             ],
             'sidebarOpen' => ! $request->hasCookie('sidebar_state') || $request->cookie('sidebar_state') === 'true',
+            'contacts' => [
+                'phone' => '87756070782', // Awali dengan 62 untuk WhatsApp
+                'email' => 'cs@elijabah.com',
+                'address' => 'Batam, Kepulauan Riau, Indonesia',
+            ],
+            // Anda juga bisa titip data lain, misal nama brand
+            'brand_name' => 'Web Elijabah',
         ];
     }
 }

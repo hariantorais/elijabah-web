@@ -1,3 +1,4 @@
+import { usePage } from '@inertiajs/react';
 import { Head } from '@inertiajs/react';
 import { motion } from 'framer-motion';
 import { MessageSquare } from 'lucide-react';
@@ -12,7 +13,10 @@ import ProblemSection from '@/components/landing/problem-section';
 import ProcessSection from '@/components/landing/process-section';
 import TrustBar from '@/components/landing/trustbar';
 import WhyChooseUs from '@/components/landing/why-us';
+import type { Contact } from '@/types/data';
 export default function Welcome() {
+    const { contacts } = usePage<{ contacts: Contact }>().props;
+
     return (
         <div className="overflow-x-hidden bg-[#FCFCFC] font-sans text-slate-900 antialiased selection:bg-emerald-100">
             <Head title="Elijabah Web | Jasa Pembuatan Website Travel Umroh | Sekolah | UMKM Termurah" />
@@ -26,7 +30,7 @@ export default function Welcome() {
             <FAQSection />
             <Footer />
             <motion.a
-                href="https://wa.me/your-number"
+                href={`https://wa.me/62${contacts.phone.replace(/[^0-9]/g, '')}`}
                 whileHover={{ scale: 1.1 }}
                 className="fixed right-10 bottom-10 z-110 rounded-full bg-emerald-500 p-4 text-white shadow-2xl transition-colors hover:bg-emerald-600"
             >

@@ -1,3 +1,4 @@
+import { usePage } from '@inertiajs/react';
 import { motion } from 'framer-motion';
 import {
     Check,
@@ -10,6 +11,7 @@ import {
     Globe,
 } from 'lucide-react';
 import React from 'react';
+import type { Contact } from '@/types';
 
 const tiers = [
     {
@@ -85,10 +87,12 @@ const cardVariants = {
 };
 
 export default function Pricing() {
+    const { contacts } = usePage<{ contacts: Contact }>().props;
+
     return (
         <section
             id="harga"
-            className="relative overflow-hidden bg-[#FCFCFC] px-6 py-40"
+            className="relative overflow-hidden bg-[#FCFCFC] px-6 py-15 lg:py-40"
         >
             {/* Background Decor */}
             <div className="pointer-events-none absolute top-0 left-0 -z-10 h-full w-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03]"></div>
@@ -97,7 +101,7 @@ export default function Pricing() {
                 {/* Header Section */}
                 <div className="mx-auto max-w-7xl">
                     {/* Header Section */}
-                    <div className="mb-24 grid items-end gap-10 lg:grid-cols-2">
+                    <div className="mb-15 grid items-end gap-10 lg:grid-cols-2">
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -105,10 +109,10 @@ export default function Pricing() {
                             className="flex flex-col"
                         >
                             <h2 className="mb-6 text-xs font-black tracking-[0.4em] text-[#006442] uppercase underline decoration-4 underline-offset-8">
-                                Pilihan Paket Digitalisasi
+                                Pilihan Paket
                             </h2>
-                            <h3 className="text-5xl leading-tight font-black tracking-tighter italic md:text-5xl">
-                                Bangun Sistem Anda{' '}
+                            <h3 className="text-4xl leading-tight font-black tracking-tighter italic md:text-5xl">
+                                Bangun Website Anda{' '}
                                 <span className="text-[#006442]">
                                     Sekarang Juga.
                                 </span>
@@ -121,7 +125,7 @@ export default function Pricing() {
                             viewport={{ once: true }}
                             className="lg:mb-2" // Memberikan sedikit margin bawah agar sejajar dengan baseline teks kiri
                         >
-                            <p className="border-l-4 border-emerald-100 pl-8 text-lg leading-relaxed font-medium text-slate-500">
+                            <p className="border-emerald-100 text-lg leading-relaxed font-medium text-slate-500 lg:border-l-4 lg:pl-8">
                                 Pilih paket yang sesuai dengan skala kebutuhan
                                 bisnis atau lembaga Anda. Setiap opsi dirancang
                                 untuk memberikan otoritas penuh pada identitas
@@ -147,7 +151,7 @@ export default function Pricing() {
                                 y: -15,
                                 transition: { duration: 0.3 },
                             }}
-                            className={`relative flex flex-col rounded-[3rem] p-10 transition-all duration-500 ${
+                            className={`relative flex flex-col rounded-2xl p-5 transition-all duration-500 lg:p-10 ${
                                 tier.highlight
                                     ? 'bg-slate-950 text-white shadow-[0_40px_100px_rgba(0,100,66,0.15)] ring-4 ring-emerald-500/10'
                                     : 'border border-slate-100 bg-white shadow-xl shadow-slate-200/50'
@@ -252,16 +256,21 @@ export default function Pricing() {
                                 ))}
                             </ul>
 
-                            <button
-                                className={`group rounded-2rem flex w-full items-center justify-center gap-3 py-6 text-xs font-black tracking-[0.2em] uppercase transition-all ${
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href={`https://wa.me/${contacts.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(
+                                    `Halo Elijabah, saya tertarik dengan paket ${tier.name}. Bisakah saya mendapatkan informasi lebih lanjut?`,
+                                )}`}
+                                className={`group flex w-full items-center justify-center gap-3 rounded-xl py-6 text-xs font-black tracking-[0.2em] uppercase transition-all ${
                                     tier.highlight
                                         ? 'bg-emerald-500 text-white shadow-xl shadow-emerald-500/40 hover:bg-white hover:text-slate-900'
                                         : 'bg-slate-950 text-white hover:bg-[#006442]'
                                 }`}
                             >
-                                {tier.btnText}{' '}
+                                {tier.btnText}
                                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-2" />
-                            </button>
+                            </a>
                         </motion.div>
                     ))}
                 </motion.div>
@@ -271,7 +280,7 @@ export default function Pricing() {
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="mt-32 grid gap-12 border-t border-slate-200 pt-20 md:grid-cols-3"
+                    className="mt-15 grid gap-12 border-t border-slate-200 pt-20 md:grid-cols-3"
                 >
                     <div className="flex items-center gap-6">
                         <ShieldCheck className="h-10 w-10 text-[#006442] opacity-50" />

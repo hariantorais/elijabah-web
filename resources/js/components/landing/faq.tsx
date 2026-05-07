@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import { usePage } from '@inertiajs/react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Plus, Minus, AlertCircle } from 'lucide-react';
+import { Plus, Minus } from 'lucide-react';
+import React, { useState } from 'react';
+import type { Contact } from '@/types/data';
 
 const FAQSection = () => {
     const [activeIdx, setActiveIdx] = useState(null);
+    const { contacts } = usePage<{ contacts: Contact }>().props;
 
     const faqs = [
         {
@@ -46,11 +49,13 @@ const FAQSection = () => {
                 <div className="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
                     <div className="max-w-xl">
                         <h2 className="mb-2 text-xs font-black tracking-[0.3em] text-emerald-600 uppercase">
-                            Common Questions
+                            F.A.Q
                         </h2>
-                        <h3 className="text-3xl leading-none font-black tracking-tighter text-slate-900 uppercase italic md:text-4xl">
-                            Tanya Jawab{' '}
-                            <span className="text-emerald-600">Singkat.</span>
+                        <h3 className="text-3xl leading-none font-black text-slate-900 uppercase italic md:text-4xl">
+                            Pertanyaan yang sering{' '}
+                            <span className="text-emerald-600">
+                                ditanyakan.
+                            </span>
                         </h3>
                     </div>
                 </div>
@@ -119,12 +124,17 @@ const FAQSection = () => {
                         </h4>
                         <p className="text-xs text-balance text-slate-400">
                             Konsultasikan gratis agar Anda tidak salah pilih
-                            paket yang sesuai kebutuhan bisnis.
+                            paket yang sesuai kebutuhan Anda.
                         </p>
                     </div>
-                    <button className="shrink-0 rounded-xl bg-emerald-500 px-8 py-3 text-xs font-black tracking-widest text-white uppercase transition-colors hover:bg-emerald-400">
+                    <a
+                        href={`https://wa.me/62${contacts.phone.replace(/[^0-9]/g, '')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="shrink-0 rounded-xl bg-emerald-500 px-8 py-3 text-xs font-black tracking-widest text-white uppercase transition-colors hover:bg-emerald-400"
+                    >
                         Tanya via WhatsApp
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

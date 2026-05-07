@@ -43,9 +43,9 @@ const problems = [
 
 export default function ProblemSection() {
     return (
-        <section className="bg-white px-6 py-40">
+        <section className="bg-white px-6 py-15 lg:py-40">
             <div className="mx-auto max-w-7xl">
-                <div className="mb-24 grid items-end gap-10 lg:grid-cols-2">
+                <div className="mb-15 grid items-end gap-10 lg:mb-24 lg:grid-cols-2">
                     {/* Sisi Kiri: Judul dan Identitas Masalah */}
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
@@ -71,7 +71,7 @@ export default function ProblemSection() {
                         viewport={{ once: true }}
                         className="lg:mb-1" // Menjaga keseimbangan baseline dengan teks kiri
                     >
-                        <p className="border-l-4 border-emerald-100 pl-8 text-lg leading-relaxed font-medium text-slate-400">
+                        <p className="border-emerald-100 text-lg leading-relaxed font-medium text-slate-400 lg:border-l-4 lg:pl-8">
                             Popularitas di media sosial tidak selalu berbanding
                             lurus dengan validitas bisnis atau lembaga. Hambatan
                             strategis ini sering menjadi penyebab utama
@@ -90,7 +90,7 @@ export default function ProblemSection() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: idx * 0.1 }}
-                            className="group relative overflow-hidden rounded-[2.5rem] border border-emerald-100/50 bg-emerald-50/40 p-10 backdrop-blur-2xl transition-all duration-500 hover:-translate-y-2 hover:bg-emerald-50/60 hover:shadow-[0_25px_50px_-12px_rgba(0,100,66,0.08)]"
+                            className="group relative overflow-hidden rounded-2xl border border-emerald-100/50 bg-emerald-50/40 p-5 backdrop-blur-2xl transition-all duration-500 hover:-translate-y-2 hover:bg-emerald-50/60 hover:shadow-[0_25px_50px_-12px_rgba(0,100,66,0.08)] lg:p-10"
                         >
                             {/* Spotlight Hijau yang Berpendar dari Belakang */}
                             <div className="absolute -top-10 -right-10 h-40 w-40 rounded-full bg-emerald-400 opacity-10 blur-3xl transition-opacity duration-500 group-hover:opacity-20" />
@@ -120,13 +120,13 @@ export default function ProblemSection() {
                             </div>
 
                             {/* Accent Line Signature */}
-                            <div className="absolute bottom-0 left-0 h-1.5 w-0 bg-gradient-to-r from-[#006442] to-emerald-400 transition-all duration-500 group-hover:w-full" />
+                            <div className="absolute bottom-0 left-0 h-1.5 w-0 bg-linear-to-r from-[#006442] to-emerald-400 transition-all duration-500 group-hover:w-full" />
                         </motion.div>
                     ))}
                 </div>
 
                 {/* Footer Insight */}
-                <div className="mt-24 flex flex-col items-center gap-10 rounded-[3.5rem] border border-slate-100 bg-slate-50 p-12 md:flex-row">
+                <div className="mt-24 flex flex-col items-center gap-10 rounded-2xl border border-slate-100 bg-slate-50 p-5 md:flex-row lg:p-10">
                     <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white shadow-sm">
                         <ShieldAlert className="h-10 w-10 text-[#006442]" />
                     </div>

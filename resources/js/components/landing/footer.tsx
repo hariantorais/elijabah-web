@@ -1,7 +1,11 @@
+import { usePage } from '@inertiajs/react';
 import { MapPin, Phone, Clock, Mail } from 'lucide-react';
 import React from 'react';
+import type { Contact } from '@/types';
 
 export default function Footer() {
+    const { contacts } = usePage<{ contacts: Contact }>().props;
+
     return (
         <footer className="bg-slate-950 px-6 pt-24 pb-12 text-white">
             <div className="mx-auto max-w-7xl">
@@ -79,11 +83,11 @@ export default function Footer() {
                             </div>
                             <div className="flex items-center gap-4 border-t border-white/5 pt-4">
                                 <Phone className="h-5 w-5 text-[#006442]" />
-                                <p>+62 819 3539 2412</p>
+                                <p>+62{contacts.phone}</p>
                             </div>
                             <div className="flex items-center gap-4 border-t border-white/5 pt-4">
                                 <Mail className="h-5 w-5 text-[#006442]" />
-                                <p>cs@elijabah.com</p>
+                                <p>{contacts.email}</p>
                             </div>
                         </div>
                     </div>

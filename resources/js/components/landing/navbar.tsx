@@ -34,10 +34,14 @@ export default function Navbar() {
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6">
                 {/* LOGO */}
                 <div className="flex items-center gap-2">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#006442] font-black text-white italic shadow-md">
-                        EI
+                    <div className="flex h-10 w-10 items-center justify-center overflow-hidden">
+                        <img
+                            src="/favicon.ico"
+                            alt="Logo Elijabah"
+                            className="h-full w-full object-contain" // p-1 agar gambar tidak mepet ke pinggir rounded
+                        />
                     </div>
-                    <span className="text-xl tracking-tighter">
+                    <span className="text-2xl tracking-tighter">
                         Web
                         <span className="font-black text-[#006442]">
                             Elijabah
