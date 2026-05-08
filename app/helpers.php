@@ -256,6 +256,105 @@ function templates()
          'image' => 'edu-akademi.png',
          'palette' => ['#1e3a8a', '#f59e0b', '#f8fafc']
       ],
+      [
+         'id' => 23,
+         'uid' => 'EDU-02',
+         'category_slug' => 'education',
+         'category_label' => 'Pendidikan & Institusi',
+         'route' => 'demo-education-2',
+         'name' => 'EduHub Digital Academy',
+         'desc' => 'Platform Edutech & LMS modern dengan fokus pada kursus pemrograman dan teknologi.',
+         'image' => 'edu-edutech.png',
+         'palette' => ['#4f46e5', '#0f172a', '#f8fafc']
+      ],
+      [
+         'id' => 24,
+         'uid' => 'EDU-03',
+         'category_slug' => 'education',
+         'category_label' => 'Pendidikan & Institusi',
+         'route' => 'demo-education-3',
+         'name' => 'Global Heritage International',
+         'desc' => 'Desain prestisius untuk sekolah internasional dengan kurikulum Cambridge atau IB.',
+         'image' => 'edu-international.png',
+         'palette' => ['#0f172a', '#d4af37', '#f1f5f9']
+      ],
+      [
+         'id' => 25,
+         'uid' => 'EDU-04',
+         'category_slug' => 'education',
+         'category_label' => 'Pendidikan & Institusi',
+         'route' => 'demo-education-4',
+         'name' => 'Politeknik Harapan Bangsa',
+         'desc' => 'Template kampus formal dengan struktur birokrasi, fakultas, dan riset yang mendalam.',
+         'image' => 'edu-university.png',
+         'palette' => ['#7f1d1d', '#ffffff', '#1e293b']
+      ],
+      [
+         'id' => 26,
+         'uid' => 'EDU-05',
+         'category_slug' => 'education',
+         'category_label' => 'Pendidikan & Institusi',
+         'route' => 'demo-education-5',
+         'name' => 'Little Bloom Preschool',
+         'desc' => 'Desain ceria dan aman untuk TK/PAUD dengan fokus pada aktivitas bermain dan galeri anak.',
+         'image' => 'edu-kindergarten.png',
+         'palette' => ['#f43f5e', '#0ea5e9', '#fbbf24']
+      ],
+      [
+         'id' => 27,
+         'uid' => 'EDU-06',
+         'category_slug' => 'education',
+         'category_label' => 'Pendidikan & Institusi',
+         'route' => 'demo-education-6',
+         'name' => 'TechLink Vocational School',
+         'desc' => 'Profil SMK/Vokasi dengan penonjolan fasilitas bengkel, lab, dan partner industri.',
+         'image' => 'edu-vocational.png',
+         'palette' => ['#059669', '#ea580c', '#f9fafb']
+      ],
+      [
+         'id' => 28,
+         'uid' => 'EDU-07',
+         'category_slug' => 'education',
+         'category_label' => 'Pendidikan & Institusi',
+         'route' => 'demo-education-7',
+         'name' => 'Vanguard Creative Bootcamp',
+         'desc' => 'Gaya Neo-Brutalism yang unik untuk akademi desain, coding, dan seni digital.',
+         'image' => 'edu-bootcamp.png',
+         'palette' => ['#ccff00', '#000000', '#b088f9']
+      ],
+      [
+         'id' => 29,
+         'uid' => 'EDU-08',
+         'category_slug' => 'education',
+         'category_label' => 'Pendidikan & Institusi',
+         'route' => 'demo-education-8',
+         'name' => 'Darul Ilmi Modern Boarding',
+         'desc' => 'Template Pesantren Modern dengan estetika bersih, fokus pada Tahfidz dan IT.',
+         'image' => 'edu-pesantren.png',
+         'palette' => ['#064e3b', '#FDFBF7', '#b45309']
+      ],
+      [
+         'id' => 30,
+         'uid' => 'EDU-09',
+         'category_slug' => 'education',
+         'category_label' => 'Pendidikan & Institusi',
+         'route' => 'demo-education-9',
+         'name' => 'Bumi Pertiwi Nature School',
+         'desc' => 'Desain organik dan earthy untuk sekolah alam, Montessori, atau Eco-school.',
+         'image' => 'edu-nature.png',
+         'palette' => ['#2c3d30', '#c07f67', '#8b9d83']
+      ],
+      [
+         'id' => 31,
+         'uid' => 'EDU-10',
+         'category_slug' => 'education',
+         'category_label' => 'Pendidikan & Institusi',
+         'route' => 'demo-education-10',
+         'name' => 'Veritas Executive B-School',
+         'desc' => 'Estetika korporat/eksekutif untuk lembaga kursus manajemen, MBA, dan sertifikasi.',
+         'image' => 'edu-business.png',
+         'palette' => ['#050505', '#d91636', '#e5e5e5']
+      ],
    ];
 }
 

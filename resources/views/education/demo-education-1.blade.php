@@ -109,8 +109,8 @@
     <!-- 2. HERO: CALL TO ACTION UTAMA -->
     <section class="relative pt-32 pb-20 lg:pt-56 lg:pb-40 bg-edu-900 text-white overflow-hidden">
         <div class="absolute inset-0 opacity-20">
-            <img src="https://images.unsplash.com/photo-1523050853063-bd803755160b?auto=format&fit=crop&w=1920"
-                class="w-full h-full object-cover" alt="Background">
+            <img src="{{ asset('/images/education/campus-hero.png') }}" class="w-full h-full object-cover"
+                alt="Background">
         </div>
         <div
             class="max-w-7xl mx-auto px-4 relative z-10 text-center lg:text-left flex flex-col lg:flex-row items-center gap-16">
@@ -155,8 +155,7 @@
                 <!-- Image Side with Decorative Frames -->
                 <div class="w-full lg:w-2/5 relative">
                     <div class="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
-                            alt="Pimpinan Lembaga"
+                        <img src="{{ asset('images/owner.png') }}" alt="Pimpinan Lembaga"
                             class="w-full h-[500px] object-cover object-top grayscale hover:grayscale-0 transition duration-700">
                     </div>
                     <!-- Decorative Elements -->
@@ -329,7 +328,7 @@
             </div>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="group relative overflow-hidden rounded-2xl h-64">
-                    <img src="https://images.unsplash.com/photo-1541339907198-e08756ebafe3?auto=format&fit=crop&w=600"
+                    <img src="{{ asset('images/education/lab.png') }}"
                         class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                         alt="Lab">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
@@ -337,7 +336,7 @@
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-2xl h-64">
-                    <img src="https://images.unsplash.com/photo-1524178232363-1fb28f74b671?auto=format&fit=crop&w=600"
+                    <img src="{{ asset('images/education/library.png') }}"
                         class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                         alt="Library">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
@@ -345,7 +344,7 @@
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-2xl h-64">
-                    <img src="https://images.unsplash.com/photo-1577416414929-7a302fad6f61?auto=format&fit=crop&w=600"
+                    <img src="{{ asset('images/education/sport.png') }}"
                         class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                         alt="Sport">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
@@ -353,7 +352,7 @@
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-2xl h-64">
-                    <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600"
+                    <img src="{{ asset('images/education/creative.png') }}"
                         class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                         alt="Creative">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
