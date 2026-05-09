@@ -648,7 +648,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i>
                             Integrasi WhatsApp</li>
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Include
-                            Domain (1 tahun)</li>
+                            Domain (.com) 1 tahun</li>
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i>
                             Keamanan SSL</li>
 
@@ -700,7 +700,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-amber-300"></i>
                             Panduan Penggunaan Lengkap</li>
                         <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-amber-300"></i>
-                            Keamanan Berlapis </li>
+                            Include Hosting + Domain (.com) 1 Tahun </li>
                         <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-amber-300"></i>
                             Dukungan Teknis (6 bulan)</li>
                     </ul>
@@ -727,7 +727,7 @@
                     <ul class="space-y-3 mb-8 text-sm text-slate-300">
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i>
                             <span class="underline decoration-2">Semua
-                                Fitur Infrastruktur Digital</span>
+                                Fitur Paket Bisnis</span>
                         </li>
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Alur
                             Bisnis Sesuai Permintaan</li>
