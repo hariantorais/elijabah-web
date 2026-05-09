@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\ProjectController;
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Features;
 
@@ -13,6 +14,8 @@ Route::get('/', function () {
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::inertia('dashboard', 'dashboard')->name('dashboard');
+    Route::get('/admin/projects', [ProjectController::class, 'index'])->name('admin.projects.index');
+    Route::post('/admin/projects', [ProjectController::class, 'store'])->name('admin.projects.store');
 });
 
 

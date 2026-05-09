@@ -632,7 +632,7 @@
                 <!-- Paket 1: Hemat (Landing Page) -->
                 <div
                     class="bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 border border-slate-700 hover:border-slate-500 transition duration-300">
-                    <h3 class="text-xl font-bold text-slate-200 mb-2">Digital Branding</h3>
+                    <h3 class="text-xl font-bold text-slate-200 mb-2">Paket Branding</h3>
                     <p class="text-slate-400 text-xs mb-6">Cocok untuk pedagang, jasa, atau promo produk tunggal.
                         Pengerjaan 2-3 hari.</p>
                     <div class="mb-8">
@@ -648,7 +648,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i>
                             Integrasi WhatsApp</li>
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Include
-                            Domain & Hosting (1 tahun)</li>
+                            Domain (1 tahun)</li>
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i>
                             Keamanan SSL</li>
 
@@ -668,7 +668,7 @@
                         Pilihan Terbaik
                     </div>
 
-                    <h3 class="text-xl font-bold text-white mb-2">Infrastuktur Digital</h3>
+                    <h3 class="text-xl font-bold text-white mb-2">Paket Bisnis</h3>
                     <p class="text-brand-100 text-xs mb-6">Cocok untuk biro travel, pondok pesantren dan bisnis
                         menengah. Pengerjaan 1-2 minggu.</p>
 
@@ -693,7 +693,7 @@
 
                     <ul class="space-y-3 mb-8 text-sm text-white font-medium">
                         <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-amber-300"></i>
-                            <span class="underline decoration-2">Semua Fitur Digital Branding</span>
+                            <span class="underline decoration-2">Semua Fitur Paket Branding</span>
                         </li>
                         <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-amber-300"></i>
                             Dashboard Admin (Kelola Data) </li>
@@ -715,7 +715,7 @@
                 <!-- Paket 3: Toko Online (E-Commerce) -->
                 <div
                     class="bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 border border-slate-700 hover:border-slate-500 transition duration-300">
-                    <h3 class="text-xl font-bold text-slate-200 mb-2">Enterprise Custom</h3>
+                    <h3 class="text-xl font-bold text-slate-200 mb-2">Paket Custom</h3>
                     <p class="text-slate-400 text-xs mb-6">Arsitektur sistem yang dibangun 100% mengikuti alur kerja
                         bisnis atau lembaga Anda.</p>
                     <div class="mb-8">
