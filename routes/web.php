@@ -9,7 +9,10 @@ use Laravel\Fortify\Features;
 // ])->name('home');
 
 Route::get('/', function () {
-    return view('welcome');
+    $templates = App\Models\Template::where('is_active', true)->get();
+    $categories = collect($templates)->pluck('category_label', 'category_slug')->unique();
+
+    return view('welcome', compact('templates', 'categories'));
 })->name('home');
 
 Route::middleware(['auth', 'verified'])->group(function () {
@@ -36,6 +39,12 @@ for ($i = 1; $i <= 10; $i++) {
     Route::get('/demo-education-' . ($i), function () use ($i) {
         return view('education.demo-education-' . ($i));
     })->name('demo-education-' . ($i));
+}
+
+for ($i = 1; $i <= 10; $i++) {
+    Route::get('/demo-portfolio-' . ($i), function () use ($i) {
+        return view('portfolio.demo-portfolio-' . ($i));
+    })->name('demo-portfolio-' . ($i));
 }
 
 require __DIR__ . '/settings.php';
