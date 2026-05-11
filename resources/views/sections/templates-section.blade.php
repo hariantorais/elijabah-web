@@ -1,17 +1,19 @@
  <section id="template" x-data="{ activeFilter: 'umkm' }" class="py-24 bg-slate-50 border-t border-slate-100">
      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-         <!-- Header: Disamakan dengan gaya Portfolio -->
          <div class="text-center mb-16">
-             <span class="text-brand-600 font-bold tracking-widest text-xs uppercase mb-3 block">Katalog
-                 Desain</span>
-             <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Pilih Base Template</h2>
-             <p class="text-slate-500 max-w-2xl mx-auto font-medium">
-                 Gunakan koleksi template premium kami sebagai fondasi website Anda untuk proses pengerjaan yang
-                 lebih cepat.
+             <div class="inline-block bg-white border border-slate-200 rounded-full px-4 py-1.5 mb-4 shadow-sm">
+                 <span class="text-slate-600 font-bold text-xs uppercase"><i
+                         class="fa-solid fa-layer-group text-brand-500 mr-2"></i>[1] Paket Branding</span>
+             </div>
+
+             <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Pilih Wajah Digital Anda</h2>
+
+             <p class="text-slate-500 max-w-2xl mx-auto font-medium text-lg leading-relaxed">
+                 Anda tidak perlu memikirkan desain dari nol. Cukup pilih strukturnya, dan
+                 biarkan tim kami menyulapnya menjadi identitas perusahaan Anda.
              </p>
          </div>
-
          <!-- Filter: Minimalis -->
          <div class="flex flex-wrap justify-center gap-2 mb-12">
 
@@ -108,12 +110,6 @@
                      </div>
                  </div>
              @endforeach
-         </div>
-
-         <!-- Footer Footer Seksi -->
-         <div class="text-center mt-16 pt-8 border-t border-slate-200">
-             <p class="text-slate-500 font-medium italic">Punya konsep sendiri? Kami siap buatkan desain custom
-                 khusus untuk Anda.</p>
          </div>
 
      </div>

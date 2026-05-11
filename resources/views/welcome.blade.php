@@ -134,6 +134,7 @@
     @include('sections/why-section')
     @include('sections/services-section')
     @include('sections/templates-section')
+    @include('sections.business-solutions-section')
     @include('sections/pricing-section')
     @include('sections/order-flow-section')
     @include('sections/cta-section')
