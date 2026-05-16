@@ -20,7 +20,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-6xl mx-auto">
             @foreach ($packages as $package)
                 <div
-                    class="relative transition duration-300 rounded-3xl p-8 
+                    class="relative transition duration-300 rounded-3xl p-8
             {{ $package->is_popular
                 ? 'bg-gradient-to-br from-brand-600 to-brand-800 border-2 border-brand-400 shadow-2xl shadow-brand-500/20 transform md:-translate-y-6 overflow-hidden'
                 : 'bg-slate-800/50 backdrop-blur-sm border border-slate-700 hover:border-slate-500' }}">
@@ -52,6 +52,12 @@
                                 </span>
                             </div>
                         @endif
+
+                        @if($package->order === 3)
+                            Mulai Harga
+                        @endif
+
+
                         <div class="flex items-baseline">
                             <span class="text-4xl font-extrabold text-white">
                                 Rp {{ number_format($package->price / 1000000, 1, ',', '.') }}
@@ -75,7 +81,7 @@
                     <a href="{{ $package->cta_link ?? 'https://wa.me/' . settings('contact_phone') . '?text=Halo, saya mau pesan ' . $package->name }}"
                         class="block w-full text-center py-3 rounded-xl font-bold transition-all duration-200 active:scale-95
                 {{ $package->is_popular
-                    ? 'bg-white text-brand-700 shadow-xl uppercase text-[10px] tracking-widest hover:scale-[1.02]'
+                    ? 'bg-white text-brand-700 text-black shadow-xl uppercase text-[10px] tracking-widest hover:scale-[1.02]'
                     : 'bg-slate-700 text-white hover:bg-brand-600' }}">
                         {{ $package->cta_text }}
                     </a>
