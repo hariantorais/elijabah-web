@@ -19,6 +19,14 @@ class DatabaseSeeder extends Seeder
             'name' => 'Harianto Rais',
             'email' => 'ibnurais.abdillah@gmail.com',
             'password' => bcrypt('101293'),
+            'role' => 'admin',
+        ]);
+
+        $this->call([
+            PackageSeeder::class,
+            ClientSeeder::class,
+            ProjectSeeder::class,
+            TemplateSeeder::class,
         ]);
     }
 }

@@ -1,50 +1,61 @@
 <?php
 
-use App\Http\Controllers\Admin\ProjectController;
+use App\Models\Package;
+use App\Models\Template;
 use Illuminate\Support\Facades\Route;
-use Laravel\Fortify\Features;
-
-// Route::inertia('/', 'welcome', [
-//     'canRegister' => Features::enabled(Features::registration()),
-// ])->name('home');
+use Livewire\Volt\Volt;
 
 Route::get('/', function () {
-    $templates = App\Models\Template::where('is_active', true)->get();
+    $templates = Template::where('is_active', true)->get();
+
     $categories = collect($templates)->pluck('category_label', 'category_slug')->unique();
 
-    return view('welcome', compact('templates', 'categories'));
+    $packages = Package::orderBy('order')->get();
+
+    return view('welcome', compact('templates', 'categories', 'packages'));
 })->name('home');
 
 Route::middleware(['auth', 'verified'])->group(function () {
-    Route::inertia('dashboard', 'dashboard')->name('dashboard');
-    Route::get('/admin/projects', [ProjectController::class, 'index'])->name('admin.projects.index');
-    Route::post('/admin/projects', [ProjectController::class, 'store'])->name('admin.projects.store');
+    Route::middleware(['admin'])
+        ->prefix('admin')
+        ->name('admin.')
+        ->group(function () {
+            Volt::route('/dashboard', 'admin.dashboard.dashboard-page')->name('dashboard');
+
+            Volt::route('/projects', 'admin.projects.index')->name('projects.index');
+            Volt::route('/projects/{project}', 'admin.projects.show')->name('projects.show');
+
+            Volt::route('/clients', 'admin.clients.index')->name('clients.index');
+
+            Volt::route('/packages', 'admin.packages.index')->name('packages.index');
+
+        });
 });
 
-
+Volt::route('/login', 'auth.login')->name('login')->middleware('guest');
 
 for ($i = 1; $i <= 12; $i++) {
-    Route::get('/demo-travel-' . ($i), function () use ($i) {
-        return view('travel.demo-travel-' . ($i));
-    })->name('demo-travel-' . ($i));
+    Route::get('/demo-travel-'.($i), function () use ($i) {
+        return view('travel.demo-travel-'.($i));
+    })->name('demo-travel-'.($i));
 }
 
 for ($i = 1; $i <= 9; $i++) {
-    Route::get('/demo-umkm-' . ($i), function () use ($i) {
-        return view('umkm.demo-umkm-' . ($i));
-    })->name('demo-umkm-' . ($i));
+    Route::get('/demo-umkm-'.($i), function () use ($i) {
+        return view('umkm.demo-umkm-'.($i));
+    })->name('demo-umkm-'.($i));
 }
 
 for ($i = 1; $i <= 10; $i++) {
-    Route::get('/demo-education-' . ($i), function () use ($i) {
-        return view('education.demo-education-' . ($i));
-    })->name('demo-education-' . ($i));
+    Route::get('/demo-education-'.($i), function () use ($i) {
+        return view('education.demo-education-'.($i));
+    })->name('demo-education-'.($i));
 }
 
 for ($i = 1; $i <= 10; $i++) {
-    Route::get('/demo-portfolio-' . ($i), function () use ($i) {
-        return view('portfolio.demo-portfolio-' . ($i));
-    })->name('demo-portfolio-' . ($i));
+    Route::get('/demo-portfolio-'.($i), function () use ($i) {
+        return view('portfolio.demo-portfolio-'.($i));
+    })->name('demo-portfolio-'.($i));
 }
 
-require __DIR__ . '/settings.php';
+//require __DIR__.'/settings.php';

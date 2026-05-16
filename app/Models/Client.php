@@ -8,18 +8,15 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Client extends Model
 {
-    use HasUuids;
 
-    protected $fillable = [
-        'name',
-        'email',
-        'phone',
-        'company_name',
-        'address',
-        'internal_notes'
-    ];
+    protected $guarded = [];
 
-    public function projects(): HasMany
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function projects()
     {
         return $this->hasMany(Project::class);
     }

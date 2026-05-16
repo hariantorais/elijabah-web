@@ -2,36 +2,97 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Project extends Model
 {
-    use HasUuids;
-    protected $fillable = ['client_id', 'service_id', 'title', 'status', 'final_price', 'deadline'];
 
-    // Relasi
-    public function client()
+    protected $guarded = [];
+
+    public function getRouteKeyName(): string
+    {
+        return 'uuid';
+    }
+
+    protected $casts = [
+        'start_date' => 'date',
+        'deadline' => 'date',
+    ];
+
+    /**
+     * Relasi ke Klien (Setiap proyek punya 1 klien)
+     */
+    public function client(): BelongsTo
     {
         return $this->belongsTo(Client::class);
     }
-    public function service()
+
+    /**
+     * Relasi ke PM (User dengan role PM)
+     */
+    public function projectManager(): BelongsTo
     {
-        return $this->belongsTo(Service::class);
+        return $this->belongsTo(User::class, 'pm_id');
     }
-    public function credentials()
+
+    public function package(): BelongsTo
     {
-        return $this->hasMany(Credential::class);
+        return $this->belongsTo(Package::class);
     }
+
     public function invoices()
     {
         return $this->hasMany(Invoice::class);
     }
 
-    protected $appends = ['formatted_price'];
-
-    public function getFormattedPriceAttribute()
+    /**
+     * Mengkapsulasi logika deadline ke dalam satu atribut meta.
+     */
+    protected function deadlineMeta(): Attribute
     {
-        return 'Rp ' . number_format($this->final_price, 0, ',', '.');
+        return Attribute::make(
+            get: function () {
+                if (! $this->deadline) {
+                    return null;
+                }
+
+                $days = now()->startOfDay()->diffInDays($this->deadline->startOfDay(), false);
+
+                return match (true) {
+                    $days > 0 => [
+                        'label' => "$days hari lagi",
+                        'class' => 'text-blue-500',
+                        'urgency' => 'normal',
+                    ],
+                    $days === 0 => [
+                        'label' => 'Hari ini!',
+                        'class' => 'text-amber-500 font-bold animate-pulse',
+                        'urgency' => 'high',
+                    ],
+                    default => [
+                        'label' => 'Terlewat '.abs($days).' hari',
+                        'class' => 'text-red-500',
+                        'urgency' => 'overdue',
+                    ],
+                };
+            }
+        );
+    }
+
+    public function milestones()
+    {
+        return $this->hasMany(Milestone::class)->orderBy('due_date', 'asc');
+    }
+
+    public function tasks()
+    {
+        return $this->hasManyThrough(Task::class, Milestone::class);
+    }
+
+    public function credentials()
+    {
+        return $this->hasMany(ProjectCredential::class)->latest();
     }
 }

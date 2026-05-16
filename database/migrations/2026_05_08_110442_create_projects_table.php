@@ -12,15 +12,18 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('projects', function (Blueprint $table) {
-            $table->uuid('id')->primary();
-            $table->foreignUuid('client_id')->constrained()->onDelete('cascade');
-            $table->foreignUuid('service_id')->constrained();
+            $table->id();
+            $table->uuid();
             $table->string('title');
-            $table->enum('status', ['pending', 'on_progress', 'review', 'completed', 'cancelled'])->default('pending');
+            $table->text('description')->nullable();
+            $table->foreignId('package_id')->constrained()->onDelete('restrict');
+            $table->foreignId('client_id')->constrained();
+            $table->foreignId('pm_id')->nullable()->constrained('users');
+            $table->enum('status', ['discussion', 'on_progress', 'testing', 'maintenance', 'completed'])->default('discussion');
+            $table->decimal('total_budget', 15, 2)->default(0);
             $table->date('start_date')->nullable();
             $table->date('deadline')->nullable();
-            $table->decimal('final_price', 15, 2);
-            $table->text('notes')->nullable();
+            $table->unsignedInteger('progress_percent')->default(0);
             $table->timestamps();
         });
     }

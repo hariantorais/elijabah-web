@@ -12,13 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('clients', function (Blueprint $table) {
-            $table->uuid('id')->primary();
-            $table->string('name'); // Nama PIC
+            $table->id();
+            $table->string('company_name');
+            $table->string('pic_name');
             $table->string('email')->unique();
-            $table->string('phone')->nullable(); // Nomor WhatsApp
-            $table->string('company_name')->nullable();
-            $table->text('address')->nullable();
-            $table->text('internal_notes')->nullable(); // Catatan rahasia Anda tentang klien ini
+            $table->string('phone')->nullable();
+            $table->string('address')->nullable();
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null');
             $table->timestamps();
         });
     }
