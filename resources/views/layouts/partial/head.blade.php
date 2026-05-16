@@ -18,7 +18,7 @@
 
     <!-- Theme Config Js -->
     <script src="{{ asset('') }}assets/js/config.js"></script>
-    @vite(['resources/css/app.css', 'resources/js/app.tsx', 'resources/js/blade.ts'])
+    @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/blade.js'])
 
     @stack('styles')
     @livewireStyles
