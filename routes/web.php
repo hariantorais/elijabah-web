@@ -30,6 +30,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Volt::route('/packages', 'admin.packages.index')->name('packages.index');
 
         });
+
+    Route::get('/admin/invoices/{invoice:invoice_number}/print', function (\App\Models\Invoice $invoice) {
+        $invoice->load('payments');
+        return view('admin.invoices.print', compact('invoice'));
+    })->name('admin.invoices.print');
 });
 
 Volt::route('/login', 'auth.login')->name('login')->middleware('guest');

@@ -5,7 +5,7 @@ use function Livewire\Volt\{state, on};
 state([
     'selectedInvoiceId' => null,
     'payAmount' => '',
-    'paymentDate' => '',
+    'paymentDate' => now()->format('Y-m-d'),
     'paymentMethod' => 'Bank Transfer (BCA)',
     'refNumber' => '',
     'paymentNotes' => '',
@@ -18,10 +18,6 @@ state([
 on(['open-modal' => function($id = null) {
     $this->currentInvoice = \App\Models\Invoice::with('payments')->find($id);
     $this->selectedInvoiceId = $id;
-    $this->payAmount = '';
-    $this->refNumber = '';
-    $this->paymentNotes = '';
-    $this->paymentDate = now()->format('Y-m-d');
 }]);
 
 $submit = function () {
@@ -61,7 +57,7 @@ $submit = function () {
     $this->dispatch('close-modal', name: 'modal-payment');
 
     // 3. Perbaikan: Lempar event ke parent component untuk memicu refresh kalkulasi totalBilled dll
-    $this->dispatch('finance-updated');
+    $this->dispatch('invoice-updated');
 
     // Reset memori state form
     $this->selectedInvoiceId = null;
