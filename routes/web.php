@@ -40,7 +40,7 @@ Volt::route('/login', 'auth.login')->name('login')->middleware('guest');
 
 for ($i = 1; $i <= 12; $i++) {
     Route::get('/demo-travel-' . ($i), function () use ($i) {
-        return view('travel.demo-travel-' . ($i));
+        return view('demo-template.travel.demo-travel-' . ($i));
     })->name('demo-travel-' . ($i));
 }
 
