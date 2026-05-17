@@ -28,7 +28,6 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Volt::route('/clients', 'admin.clients.index')->name('clients.index');
 
             Volt::route('/packages', 'admin.packages.index')->name('packages.index');
-
         });
 
     Route::get('/admin/invoices/{invoice:invoice_number}/print', function (\App\Models\Invoice $invoice) {
@@ -40,27 +39,25 @@ Route::middleware(['auth', 'verified'])->group(function () {
 Volt::route('/login', 'auth.login')->name('login')->middleware('guest');
 
 for ($i = 1; $i <= 12; $i++) {
-    Route::get('/demo-travel-'.($i), function () use ($i) {
-        return view('travel.demo-travel-'.($i));
-    })->name('demo-travel-'.($i));
+    Route::get('/demo-travel-' . ($i), function () use ($i) {
+        return view('travel.demo-travel-' . ($i));
+    })->name('demo-travel-' . ($i));
 }
 
 for ($i = 1; $i <= 9; $i++) {
-    Route::get('/demo-umkm-'.($i), function () use ($i) {
-        return view('umkm.demo-umkm-'.($i));
-    })->name('demo-umkm-'.($i));
+    Route::get('/demo-umkm-' . ($i), function () use ($i) {
+        return view('demo-template.umkm.demo-umkm-' . ($i));
+    })->name('demo-umkm-' . ($i));
 }
 
 for ($i = 1; $i <= 10; $i++) {
-    Route::get('/demo-education-'.($i), function () use ($i) {
-        return view('education.demo-education-'.($i));
-    })->name('demo-education-'.($i));
+    Route::get('/demo-education-' . ($i), function () use ($i) {
+        return view('demo-template.education.demo-education-' . ($i));
+    })->name('demo-education-' . ($i));
 }
 
 for ($i = 1; $i <= 10; $i++) {
-    Route::get('/demo-portfolio-'.($i), function () use ($i) {
-        return view('portfolio.demo-portfolio-'.($i));
-    })->name('demo-portfolio-'.($i));
+    Route::get('/demo-portfolio-' . ($i), function () use ($i) {
+        return view('demo-template.portfolio.demo-portfolio-' . ($i));
+    })->name('demo-portfolio-' . ($i));
 }
-
-//require __DIR__.'/settings.php';
