@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMKM Kuliner - Fresh & Friendly Theme</title>
 
-    <!-- Tailwind CSS & Alpine JS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+   @vite(['resources/js/app.js', 'resources/css/app.css'])
+    @livewireStyles
 
     <!-- Font: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
@@ -565,5 +564,7 @@
     </footer>
 
 </body>
+
+@livewireScripts
 
 </html>

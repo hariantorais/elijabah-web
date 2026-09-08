@@ -89,8 +89,15 @@
                          <div class="w-3 h-3 rounded-full bg-amber-400"></div>
                          <div class="w-3 h-3 rounded-full bg-emerald-400"></div>
                      </div>
-                     <img src="{{ asset('images/web-mockup.png') }}" alt="Web Mockup" class="w-full h-auto rounded-b-xl"
-                         style="min-height: 300px; background: #e2e8f0;">
+                     <img src="{{ asset('images/web-mockup.png') }}" 
+                        alt="Preview Desain dan Sistem Pembuatan Website Modern - Web Elijabah" 
+                        width="800" 
+                        height="420"
+                        fetchpriority="high" 
+                        loading="eager" 
+                        decoding="async"
+                        class="w-full h-auto rounded-b-xl object-cover"
+                        style="min-height: 300px; background: #e2e8f0;">
 
                      <!-- Floating Stats -->
                      <div class="absolute -left-6 top-1/3 glass p-4 rounded-xl shadow-xl flex items-center gap-3 animate-float"

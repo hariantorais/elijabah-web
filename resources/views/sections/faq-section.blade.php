@@ -161,7 +161,7 @@
           <div class="text-center mt-12">
               <p class="text-slate-500 text-sm">Pertanyaan Anda belum terjawab?
                   <a href="https://wa.me/{{ settings('contact_chatbot') }}"
-                      class="text-brand-400 font-bold hover:underline">Tanya *Eli*
+                      class="text-brand-400 font-bold hover:underline">Tanya Eli
                       Asisten Digital via WhatsApp</a>
               </p>
           </div>

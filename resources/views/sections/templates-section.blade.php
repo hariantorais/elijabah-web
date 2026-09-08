@@ -39,7 +39,8 @@
                      <!-- Frame Gambar -->
                      <div
                          class="relative w-full h-52 rounded-t-3xl overflow-hidden bg-slate-200 border border-slate-100">
-                         <img src="{{ asset('images/templates/' . $item['route'] . '.png') }}" alt="{{ $item['name'] }}"
+                         <img src="{{ asset('images/templates/' . $item['route'] . '.png') }}" alt="Desain Template {{ $item['name'] }} - Kategori {{ $item['category_label'] }}"
+                             width="600" height="400" loading="lazy" decoding="async"
                              class="w-full h-full object-cover object-top group-hover:scale-110 transition duration-1000 ease-in-out"
                              onerror="this.src='https://placehold.co/600x800/cbd5e1/64748b?text={{ $item['uid'] }}'">
 

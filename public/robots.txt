@@ -1,2 +1,12 @@
+# Robots.txt for Web Elijabah
 User-agent: *
-Disallow:
+Allow: /
+Allow: /images/
+Allow: /build/
+Allow: /assets/
+Disallow: /admin/
+Disallow: /login
+
+Sitemap: https://elijabah.com/sitemap.xml
+
+
