@@ -120,3 +120,5 @@ Route::get('/sitemap.xml', function () {
     ]);
 })->name('sitemap');
 
+Route::redirect('/doc_elijabah26', 'https://drive.google.com/drive/folders/155wccGSuQ4JBdCGegyikgdNFLmEN3xtQ?usp=sharing', 301);
+
